@@ -1,0 +1,2 @@
+## 2026-07-24 — Setup session
+Built the acp-command-center structure in ~/Documents, then moved the whole folder intact into ~/projects/acp-command-center (git repos traveled with it, none re-initialized). Wrote the root CLAUDE.md constitution (Who/Map/Hard rules/Skills). Installed five skills into .claude/skills/ (acp-writing-style, ai-tic-audit, control-tower, polaris, red-team-protocol) and fixed the acp-writing-style title label from v2.1 to v2.2 to match its existing changelog. Copied acp-writing-style into doctrine/ and made doctrine's first commit.
