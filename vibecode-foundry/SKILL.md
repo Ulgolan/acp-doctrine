@@ -54,6 +54,22 @@ IF AN ANCHOR DOESN'T HIT EXACTLY ONCE: stop and report. Do not improvise.
 - **External instruments over self-report** — Lighthouse/PageSpeed for perf, Post Inspector for share cards, `site:` searches for indexing, the live phone for mobile. Telemetry over vibes, always.
 - **Never certify your own work** — verification comes from a different seat in a fresh context, or from the Commander's eyes on the live site.
 
+### IA Canon
+Every active vibecoded product carries a versioned `IA_CANON.md` at repo root — vocabulary, content types, structure. Created at ignition, enforced through the existing supervisor loop, audited at the QA gate. Not a standalone skill, not enterprise ontology tooling: one template, one section, one law. Five moments, mapped onto the loop above — no new ceremony:
+1. **Ignition — Discovery.** Before the first executor brief: a ≤10-min interrogation (list the product's concepts → force one canonical term each → type the content → sketch the nav). Output: canon v1.0, committed to repo. No ignition-key brief ships without it.
+2. **Brief injection.** Every executor brief embeds the Controlled Vocabulary table verbatim, plus a pointer to the full canon in-repo.
+3. **Supervisor canon check.** Canon compliance is one line item in the existing supervisor review grade. Executor output introduces an unnamed concept → supervisor surfaces it → ACP rules → dated amendment → next brief carries it. The canon stays living between ignition and launch — this is the mid-build enforcement a canon-at-ignition-only approach misses.
+4. **QA gate — audit run.** Pre-launch, run the checklist below. Banned-synonym violations in user-facing strings are blocking; annex-level issues are flag-only.
+5. **Amendment protocol.** Executors propose, ACP decides, the changelog dates it. Applies at every moment above.
+
+**Audit checklist (drift signals)** — literal counts and locations, `ai-tic-audit` style. Flags only, never auto-rewrites; rulings are ACP's.
+1. **Synonym drift** — same concept under ≥2 labels across screens/copy.
+2. **Vocab violation** — banned synonym in a user-facing string *(blocking at QA gate)*.
+3. **Untyped content** — content fitting no declared type.
+4. **Orphans** — pages/sections unreachable from the structure map.
+5. **Nav divergence** — shipped navigation ≠ canon structure map.
+6. **Label inconsistency** — casing/verb convention breaks *(annex products only)*.
+
 ### The rogues' gallery (anti-patterns; each one cost us or nearly did)
 Editing from a stale file (the "stale-file theory") · line-number edits across sessions · "while we're in there" scope · half-theming a system · speculative optimization from a vague "make it faster" · confident platform claims without console contact · letting genAI draw the actual logo or canon motifs · certifying your own work · a freeze without a manifest · narrating instead of measuring · generalizing from one page to four without inventorying the other three.
 
