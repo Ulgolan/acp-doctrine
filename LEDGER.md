@@ -10,6 +10,7 @@ Step 0 found no on-disk vibecode-foundry anywhere in the workspace (.claude/skil
 
 **Closed:** claude.ai copy of vibecode-foundry synced by Commander (2026-07-31) — registry and doctrine/vibecode-foundry/SKILL.md now match.
 
+**Closed:** doctrine/ remote created — origin `https://github.com/Ulgolan/acp-doctrine.git` (2026-07-31). main pushed with upstream tracking (origin/main), feat/ia-canon pushed alongside (branch retained, not merged away).
+
 **Pending:**
 - vibecode-foundry installation into .claude/skills/ — parked to the skills-recensement mission.
-- **Priority:** doctrine/ has no remote. Create a private GitHub remote and push before more canon accumulates on this repo. Not part of this branch's exit condition — a standing action item.
