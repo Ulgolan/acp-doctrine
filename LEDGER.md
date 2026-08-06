@@ -73,3 +73,16 @@ Tower erratum (M1): the estate-walk brief's Mission 1 preamble asserted the audi
 Backlog cage (Tribunal-mandated): of the estate walk's findings, only two items are near-term pulls: (1) the portfolio font defect fix (pending the Commander's rendered-eye confirmation on live popescuportfolio.ch), and (2) acp-dashboard resurrection + review (this session). ALL other findings (auditlens README rewrite, GAP-LIST 2.0 execution, portfolio single-source consolidation, Next 15→16 upgrade, hygiene basket) are PARKED BEHIND dashboard-public (Mikko) and AuditLens field-proving (trust batch + text-only live-fire), and require a deliberate Commander pull to activate. No "just quickly" activations.
 Ritual verdict: No standing ritual yet — the first walk's yield was largely first-pass debt, a well that empties. Re-run once after the next major shipping cycle; if the second walk yields like the first, amend the constitution then.
 Session accounting: valve usage 0/2 across the entire walk (all code via ignition keys). One Tower error (above). Tribunal ran post-certification at Commander's order: AMBER, three amendments (merge-conflict pre-authorization, rendered-eye check on the font finding, this cage).
+
+### 2026-08-06 — Estate walk: SHIPPED, walk closed
+M8 font fix merged to popescuportfolio main after Commander's rendered-eye
+gate PASSED on preview (live font census confirmed real Archivo 100..900 +
+wdth 62..125; ghost "Archivo Expanded" eliminated from all 5 pages; Tower
+ruled the 6-rule case.css stretch deviation PASS — all six consumed the
+broken token, restoration not addition). acp-dashboard analytics + estate
+LEDGER merged to main, Tower-certified. Analytics now live and transmitting
+on auditlens, popescuportfolio (xppm), and acp-dashboard. Estate walk fully
+closed: all exit conditions met. Parked untouched, by rule: branch cleanup,
+db1a twin, popescuportfolio Drop fossil (Jul 1, no domain — deletion
+candidate), probe deployments, skills census, dashboard-public vuln bump,
+and the backlog cage items. Ritual verdict stands as written above.
