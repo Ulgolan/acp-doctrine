@@ -14,3 +14,38 @@ Step 0 found no on-disk vibecode-foundry anywhere in the workspace (.claude/skil
 
 **Pending:**
 - vibecode-foundry installation into .claude/skills/ — parked to the skills-recensement mission.
+
+### 2026-08-06 — Estate walk (Hands session close)
+
+**Missions completed:**
+- M0 — doctrine/CLAUDE.md committed under version control. Branch: main (Tower exemption, doc-only). SHA `081b19d`.
+- M2 — auditlens Vercel Analytics. Branch `chore/vercel-analytics`. SHA `66f1e18`.
+- M3 — popescuportfolio Vercel Analytics, all 5 pages. Branch `chore/vercel-analytics`. SHA `84364fd`.
+- MA — auditlens quality review. Branch `review/estate-walk`. SHA `218576b`.
+- MB — popescuportfolio quality review. Branch `review/estate-walk`. SHA `8b3123b`.
+- MC — doctrine quality review. Branch `review/estate-walk`. SHA `e1a7d66`.
+
+**Missions stopped, with reason (anchor failures verbatim):**
+- M1 — auditlens npm audit fix. Anchor 1 (4 high vulns naming postcss + sharp) matched exactly. STOPPED at the DO-NOT clause: plain `npm audit fix` resolved only `form-data`, leaving 3 of 4 highs (postcss, sharp, transitively via next) fixable only via `npm audit fix --force`, which the fix output stated "Will install next@16.3.0, which is a breaking change" — a semver-major bump, explicitly forbidden. No commit made; partial lockfile change reverted; stopped branch deleted (never pushed, never diverged from main).
+
+**Missions skipped, with reason:**
+- M4 (acp-dashboard deployment check) and MD (acp-dashboard quality review) — SKIPPED. Ground Rule 1 anchor failed at session open: `acp-dashboard/` does not exist as a sibling folder under `~/projects/acp-command-center/` (confirmed by directory listing and a recursive filesystem search for any `*dashboard*` path nearby). Per the brief's STOP-and-report instruction, these missions were not attempted.
+
+**Branch SHAs, consolidated:**
+| Repo | Branch | SHA | Mission |
+|---|---|---|---|
+| doctrine | main | `081b19d` | M0 |
+| auditlens | chore/vercel-analytics | `66f1e18` | M2 |
+| popescuportfolio | chore/vercel-analytics | `84364fd` | M3 |
+| auditlens | review/estate-walk | `218576b` | MA |
+| popescuportfolio | review/estate-walk | `8b3123b` | MB |
+| doctrine | review/estate-walk | `e1a7d66` | MC |
+
+**Repos walked:** doctrine (M0, MC), auditlens (M1 stopped, M2, MA), popescuportfolio (M3, MB).
+**Repos not walked:** acp-dashboard (does not exist as a sibling — M4/MD skipped, see above).
+
+**Flags for Commander (from mission reports):**
+- Vercel dashboard: toggle Analytics ON for the `auditlens` project (one click). The `auditlens-db1a` twin project stays parked, untouched.
+- Vercel dashboard: toggle Analytics ON for the `popescuportfolio` project (one click).
+
+Ritual verdict: PENDING — Tower synthesis + Commander ruling to follow.
