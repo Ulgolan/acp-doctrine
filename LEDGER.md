@@ -67,3 +67,9 @@ Branch: `review/estate-walk`. Ritual verdict pending Tower synthesis.
 - Vercel dashboard: toggle Analytics ON for the `popescuportfolio` project (one click).
 
 Ritual verdict: PENDING — Tower synthesis + Commander ruling to follow.
+
+2026-08-06 — Estate walk close-out (Tower synthesis, post-Tribunal)
+Tower erratum (M1): the estate-walk brief's Mission 1 preamble asserted the auditlens npm vulnerabilities were plainly fixable ("no major bumps flagged"), based on an offline audit under a different npm version. The live resolution governs: with `next` pinned `^15.1.0`, the remaining postcss/sharp highs require a semver-major Next 15→16 bump. The brief's own stop-guardrail caught the error; the Hands executed the stop correctly. Error owned per doctrine — Tower errors are ledgered, not hidden.
+Backlog cage (Tribunal-mandated): of the estate walk's findings, only two items are near-term pulls: (1) the portfolio font defect fix (pending the Commander's rendered-eye confirmation on live popescuportfolio.ch), and (2) acp-dashboard resurrection + review (this session). ALL other findings (auditlens README rewrite, GAP-LIST 2.0 execution, portfolio single-source consolidation, Next 15→16 upgrade, hygiene basket) are PARKED BEHIND dashboard-public (Mikko) and AuditLens field-proving (trust batch + text-only live-fire), and require a deliberate Commander pull to activate. No "just quickly" activations.
+Ritual verdict: No standing ritual yet — the first walk's yield was largely first-pass debt, a well that empties. Re-run once after the next major shipping cycle; if the second walk yields like the first, amend the constitution then.
+Session accounting: valve usage 0/2 across the entire walk (all code via ignition keys). One Tower error (above). Tribunal ran post-certification at Commander's order: AMBER, three amendments (merge-conflict pre-authorization, rendered-eye check on the font finding, this cage).
