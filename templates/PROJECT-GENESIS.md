@@ -135,8 +135,9 @@ boundary, or a session retires mid-arc. Not calendar-driven.
   per `acp-brand-methodology`; builds per `vibecode-foundry`.
 - **Honest facades:** every non-functional UI action routes to a real
   destination. Never ship a lie, even a decorative one.
-- Session open ritual: read the latest handoff/LEDGER, verify live git
-  state, then ask the Commander for standing priorities before ruling.
+- Session open ritual: read the newest BATON block + LEDGER, verify live
+  git state, then ask the Commander for standing priorities before
+  ruling.
 
 ## §5 — WHAT DONE LOOKS LIKE
 A project run under this instruction leaves behind: a sealed Polaris, a

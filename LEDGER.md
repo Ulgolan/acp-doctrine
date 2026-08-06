@@ -158,3 +158,29 @@ Open: INTEGRITY-AUDIT.md is new and unrun — needs two manual, ledgered
   passes on real repos (this repo is a candidate for pass 1) before
   automation is even discussable. §4 stale "handoff" reference parked
   above, spun off as its own follow-up.
+
+### 2026-08-06 — Doctrine v0.3 patch: §4 handoff reference reconciled
+
+Session opened per the new ritual: read the BATON block above + this
+LEDGER, confirmed live git state matched (`main` at `4442594`, clean
+tree apart from untracked `.DS_Store`). Picked up the item parked in
+that BATON's Open line.
+
+**Fix:** `templates/PROJECT-GENESIS.md` §4 STANDING GUARDRAILS, "Session
+open ritual" bullet, reworded "read the latest handoff/LEDGER" → "read
+the newest BATON block + LEDGER", matching §3 Phase C's BATON language.
+No other content touched, per the follow-up's explicit scope.
+
+**Version:** not bumped. The file's own header ties version bumps to
+first field deployment + a Polaris-audit, not to per-edit doc fixes;
+the v0.2 → v0.3 bump was an explicit brief override, not a new standing
+policy. This one-line consistency fix stays under v0.3, noted here
+instead — the more conservative of the two options the follow-up
+offered.
+
+>> BATON
+Session: 2026-08-06 — §4 handoff reference reconciled (patch)
+Status: CLOSED. One commit to main, doc-only exemption. SHA reported to
+  the Commander in chat.
+Next: nothing outstanding from this fix.
+Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered.
