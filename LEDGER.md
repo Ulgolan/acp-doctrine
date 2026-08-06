@@ -15,6 +15,24 @@ Step 0 found no on-disk vibecode-foundry anywhere in the workspace (.claude/skil
 **Pending:**
 - vibecode-foundry installation into .claude/skills/ — parked to the skills-recensement mission.
 
+### 2026-08-06 — Estate walk: quality findings
+
+Read-only review pass. Scope: full repo tree at `~/projects/acp-command-center/doctrine/` (excluding `.git`). Ground truth read: root `CLAUDE.md`, `doctrine/CLAUDE.md`, `doctrine/LEDGER.md` (full history), `doctrine/vibecode-foundry/IA_CANON_SPEC.md`, `doctrine/vibecode-foundry/IA_CANON.template.md`. No `POLARIS.md` at this repo's root (not flagged — POLARIS applies per-project on demand). Reviewed `main` as it stood before this branch.
+
+**Tally:** 5 PASS, 4 MINOR, 0 CRITICAL.
+
+1. **Layer mixing — PASS.** Pure-markdown doctrine repo, no code files, no cross-contamination (popescuportfolio canon annex in `vibecode-foundry/SKILL.md` Part II stays clearly scoped, not bled into Part I).
+2. **Sprawl — MINOR.** `doctrine/.DS_Store` present on disk (untracked, no `.gitignore` anywhere in repo) — nothing stops a future `git add -A` from committing it. `IA_CANON_SPEC.md` correctly relocated to `vibecode-foundry/` per the 2026-07-31 interim Tower ruling, no stray copy left at root.
+3. **Magic numbers — PASS.** All numeric thresholds present (e.g. IA_CANON size cap "~60 lines / ~150 lines") are named and rationale-commented, not raw literals.
+4. **Drift — MINOR.** LEDGER (2026-07-31) states `feat/ia-canon` "holds until the remote exists"; the remote now exists and has for six days, but no cleanup entry followed — a stale precondition, not a contradiction (see item 8). IA Canon Law text in `doctrine/CLAUDE.md` matches root `CLAUDE.md` verbatim; `vibecode-foundry/SKILL.md`'s IA Canon section structurally matches `IA_CANON_SPEC.md` Component B.
+5. **The 10-month test — MINOR.** `doctrine/acp-writing-style/SKILL.md:16` cites `ACP_VOICE_FORENSIC_REPORT.md` for every `[§n]` reference; that file does not exist anywhere in the accessible tree. Same file's Part VII (~line 418) cites `Popescu_Alex_CV.docx` as "the fact source" — also absent. Every citation in a 570-line skill file is currently unverifiable on-disk. Recommend a pointer noting where these actually live. All other doctrine files (vibecode-foundry/SKILL.md, IA_CANON.template.md, IA_CANON_SPEC.md, LEDGER.md, CLAUDE.md) pass — self-contained.
+6. **Single-source law — PASS.** `doctrine/CLAUDE.md` diffed byte-for-byte against root `CLAUDE.md` (excluding the mirror-note header line unique to the copy) — content identical, no mirror drift yet. Checklist item X (missing per-repo CLAUDE.md): **N/A / PASS** — doctrine/CLAUDE.md now exists (Mission 0, this session). No AUDIENCES/AUDIENCE_LABELS-class duplication found elsewhere; `IA_CANON_SPEC.md` Component C correctly quotes the Law verbatim rather than restating it independently.
+7. **Skill-copy integrity.** `acp-writing-style`: **PASS, byte-identical** — `diff doctrine/acp-writing-style/SKILL.md .claude/skills/acp-writing-style/SKILL.md` returns no differences; both declare v2.2. `vibecode-foundry`: **no counterpart exists yet** in `.claude/skills/` (only acp-writing-style, ai-tic-audit, control-tower, polaris, red-team-protocol are installed there) — consistent with the standing "parked to skills-recensement" note above, so no drift check is possible yet. `doctrine/vibecode-foundry/SKILL.md` itself carries no explicit version number (unlike acp-writing-style's `v2.2`) — a minor traceability gap, see item 9.
+8. **`feat/ia-canon` remote branch — fully merged, confirmed.** `git merge-base --is-ancestor feat/ia-canon main` returns true; merged via `--no-ff` commit `d5a697b`. Both local and `origin/feat/ia-canon` still exist. LEDGER's stated retention condition ("holds until the remote exists") is now satisfied. **Logged as a cleanup candidate for future deletion — not deleted in this pass.**
+9. **`IA_CANON.template.md` + `IA_CANON_SPEC.md` coherence.** Both located at `doctrine/vibecode-foundry/`. **Spec/template coherence: PASS** — template delivers exactly what spec Component A (§3) prescribes (header block, Section 1 Controlled Vocabulary with matching example row, Section 2/3, Optional Annex with identical three bullets, mandatory Changelog, identical size-cap language). **Version check: gap found.** `IA_CANON_SPEC.md` declares itself v1.0 in its title; `vibecode-foundry/SKILL.md`'s IA Canon section never cites the spec version at all — no contradiction today, but no traceability if the spec is ever bumped. Flagged for a future amendment or the skills-recensement mission.
+
+Branch: `review/estate-walk`. Ritual verdict pending Tower synthesis.
+
 ### 2026-08-06 — Estate walk (Hands session close)
 
 **Missions completed:**
