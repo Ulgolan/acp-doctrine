@@ -86,3 +86,75 @@ closed: all exit conditions met. Parked untouched, by rule: branch cleanup,
 db1a twin, popescuportfolio Drop fossil (Jul 1, no domain — deletion
 candidate), probe deployments, skills census, dashboard-public vuln bump,
 and the backlog cage items. Ritual verdict stands as written above.
+
+### 2026-08-06 — Doctrine v0.3: seams sealed (Tower audit lap)
+
+One lap, doc-only, closing seams F1r, F3, F4, F8, F9, F10, and the
+polaris overlay gap surfaced by the 2026-08-06 Tower audit. Committed
+straight to main under the new doc-only exemption this lap itself
+introduces (Phase W, Rhythm bullet).
+
+**`templates/PROJECT-GENESIS.md` — v0.2 → v0.3, six amendments:**
+1. §0 — GENESIS VERSION AT BIRTH bumped to v0.3; added a BIRTH COMMIT SHA
+   field recording provenance (canonical home is
+   `acp-doctrine/templates/PROJECT-GENESIS.md`).
+2. §SCOPE — reworded the governs-line to drop bare "a repo" from the
+   trigger list ("anything with a deployment, a client, or external
+   stakes"); the airlock's "a repo meant to last" stays untouched as the
+   sandbox-graduation trigger.
+3. §3 Phase R, deliverable #3 — added the polaris-overlay note: class
+   declaration and the ≥3-data-point rule are Genesis requirements the
+   brief must satisfy even though the `polaris` skill itself doesn't name
+   them.
+4. §3 Phase R, deliverable #1 — added a pointer to harvest
+   `UNIVERSAL-LAWS.md` from the doctrine repo into each project's
+   CLAUDE.md stub.
+5. §3 Phase W, Rhythm bullet — added the doc-only exemption: doc-only
+   commits to the doctrine repo may go straight to main, certified
+   post-hoc via raw pull at the reported SHA.
+6. §3 Phase C — retired the separate handoff document. Session close now
+   ends the LEDGER entry with a `>> BATON` block (this entry is the
+   first instance); session open reads the newest BATON + live git
+   state. Added: Integrity Audit Pass 1 (git-state truth alignment) runs
+   at every session close.
+
+**Created `UNIVERSAL-LAWS.md`** (repo root) — seven laws, one line + one
+reason each: cache-bust on CSS/JS laps, breakpoint band-walk on
+composition laps, honest facades, raw-GitHub-pull certification
+(SHA-pinned), Commander's-device-only runtime verification, anchors
+naming their search domain, `tokens.css` single-source.
+
+**Created `INTEGRITY-AUDIT.md`** (repo root) — the five-pass runbook
+(truth alignment; map vs. territory; reference integrity, with dynamic
+paths enumerated rather than skipped; canon compliance, gated on a
+declared TOKEN CANON line; ledger vs. git log sync). Findings-only,
+zero fixes in-review. Manual-runs-first: no automation until two manual
+runs on real repos are ledgered — this pass count starts at zero.
+
+**Root `CLAUDE.md`** (outside this repo, not part of this commit — the
+enclosing folder isn't a git repo) — one line added to the Map: local
+folders drop the `acp-` prefix, 1:1 against their repo (`doctrine/` ↔
+`acp-doctrine`).
+
+**Parked, not fixed this lap:** `templates/PROJECT-GENESIS.md` §4's
+"Session open ritual" bullet still reads "handoff/LEDGER" — a stale
+reference to the document this lap just retired. Out of the six
+enumerated amendments, so left as-is and spun off as a separate
+follow-up rather than improvised in-lap.
+
+All five anchors (A1–A5) confirmed matching exactly once before edit;
+none required a stop-and-report.
+
+>> BATON
+Session: 2026-08-06 — Doctrine v0.3 (seams sealed)
+Status: CLOSED. One commit to main, doc-only exemption. SHA reported to
+  the Commander at session end (see chat, not duplicated here to avoid
+  a self-referential hash in the commit that produces it).
+Next: Tower certifies via raw pull at the reported SHA before the
+  Commander's eye. First live use of the BATON block — next session
+  open should confirm this block was actually legible/sufficient
+  without a separate handoff doc, and ledger that verdict.
+Open: INTEGRITY-AUDIT.md is new and unrun — needs two manual, ledgered
+  passes on real repos (this repo is a candidate for pass 1) before
+  automation is even discussable. §4 stale "handoff" reference parked
+  above, spun off as its own follow-up.

@@ -9,11 +9,14 @@ version.)*
 - PROJECT NAME: [____]
 - ONE-LINE INTENT (rough is fine — Phase R will sharpen it): [____]
 - REPO (if it exists yet; "none yet" is valid): [____]
-- GENESIS VERSION AT BIRTH: v0.2 *(when the doctrine template bumps, the
+- GENESIS VERSION AT BIRTH: v0.3 *(when the doctrine template bumps, the
   Commander decides per-project whether to re-paste; note upgrades here)*
+- BIRTH COMMIT SHA: [____] *(provenance: canonical home of this template
+  is `acp-doctrine/templates/PROJECT-GENESIS.md`; §0 records the
+  acp-doctrine commit this project's copy was pasted from)*
 
 ## §SCOPE — WHAT THIS GOVERNS (read before anything)
-Genesis governs **shipping projects**: anything with a repo, a deployment,
+Genesis governs **shipping projects**: anything with a deployment,
 a client, or external stakes. It explicitly does NOT govern play — CYOA,
 learning experiments, creative sandboxes, toys. Those need no trinity, no
 Polaris, no ceremony; they are the R&D department and they stay free.
@@ -58,7 +61,8 @@ Explore before ruling. Deliverables, all three, before ANY build:
 1. `CLAUDE.md` stub (≤1 page: who/what/map/hard rules — MUST include the
    executor laws so any Hands session inherits them from the repo itself:
    stop-and-report on anchor miss, never merge, branch discipline, main
-   is production),
+   is production; harvest `UNIVERSAL-LAWS.md` from the doctrine repo into
+   the CLAUDE.md stub),
 2. `LEDGER.md` with header line + entry #1,
 3. A **Polaris brief** sealed by the Commander (use the `polaris` skill),
    which MUST declare the project's class:
@@ -72,10 +76,16 @@ Explore before ruling. Deliverables, all three, before ANY build:
      brief then carries live-fire success criteria against real work
      instead of user quotas.
    No declared class = no brief = no build.
+   **Genesis overlays the `polaris` skill:** the class declaration and the
+   ≥3-data-point rule above are Genesis requirements the brief must
+   satisfy even though the `polaris` skill itself doesn't name them.
 
 **PHASE W — WORK & DELIVERY**
 - Rhythm: branch → build → preview → Commander's eye → merge = ship.
   Main is production. One lap = one variable = one session.
+  **Doc-only exemption:** documentation-only commits to the doctrine repo
+  may go straight to main; Tower certifies post-hoc via raw pull at the
+  reported SHA.
 - Every lap starts from an ignition key (control-tower format): anchors
   that land exactly once, DO / DO NOT, verifiable exit condition.
 - Certification: fresh instance, never the author. Tower certifies from
@@ -100,9 +110,11 @@ boundary, or a session retires mid-arc. Not calendar-driven.
 - Any production surprise → incident entry ≤20 lines within 48h:
   timeline, root cause, contributing factors, ONE change.
 - Mission close → AAR: strategy, achieved, sustain, improve. Ledgered.
-- Session close → Tower writes a handoff; the next Tower instance opens
-  by reading the handoff + LEDGER and pulling live git state before
-  issuing any ruling.
+- Session close → no separate handoff document. The closing `LEDGER.md`
+  entry ends with the `>> BATON` block. Session open = read the newest
+  BATON block + pull live git state before issuing any ruling.
+- **Integrity Audit Pass 1** (git-state truth alignment: local working
+  tree vs. `git log` vs. `origin`) runs at every session close.
 
 ## §4 — STANDING GUARDRAILS
 - **The rabbit:** when meta-work, polish passes, or speculative
