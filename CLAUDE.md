@@ -10,6 +10,7 @@ Needs support and comprehensive, mostly step-by-step explanations, in the right 
 - auditlens/  → deployable app, own repo + deploy hook. 
 - .claude/skills/ → shared skills, read by every session below this folder.
 - Each future app = new sibling folder, own git repo. Never nested, never a monorepo.
+- Naming: local folders drop the `acp-` prefix; folder ↔ repo maps 1:1 (e.g. `doctrine/` ↔ `acp-doctrine`).
 
 ## Hard rules
 - No session certifies its own work. Executor and auditor are never the same session.
@@ -28,3 +29,25 @@ brief carries the canon's controlled vocabulary; supervisor reviews
 grade output against the canon, and new concepts get a dated ruling
 before the next brief. Binding on canonized products; current pilot:
 AuditLens 2.0. Graduates to all products after the pilot verdict.
+
+## Dispatch Law (remote sessions)
+
+Dispatch makes the Commander's phone a remote shell into this machine.
+A dispatched session inherits everything a local session has — so remote
+sessions run under tighter posture, not looser.
+
+1. **Standing config (do not loosen silently):** Code permissions = manual
+   approval, computer use = OFF, no browser connected, run on startup = OFF.
+   Any change to this posture is a deliberate Commander decision, made at
+   the machine, never mid-task from the phone.
+2. **Remote scope:** dispatched sessions are for reads, status checks,
+   research, and work on preview branches. Merges to main, deploys,
+   schema changes, and anything touching credentials are desk-only —
+   eyes on the diff.
+3. **Ambiguity rule:** a remote instruction that is vague about scope
+   ("clean up", "fix the deploy") is treated as read-and-report first.
+   Propose the action, wait for the Commander's tap.
+4. **End of watch:** when the workday ends, the Claude app closes.
+   Keep-awake serves active tasks, not an open door.
+
+Phone = eyes and go/no-go. Mac = where the trust lives.

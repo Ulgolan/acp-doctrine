@@ -194,3 +194,11 @@ work only, ship actions desk-only), ambiguity rule (vague remote asks
 = read-and-report), end-of-watch rule. Amendment drafted by Tower,
 red-teamed (Amber, two plies integrated), installed by Sonnet Hands
 session (this entry).
+
+2026-08-09 — Drift note: mirror sync revealed root CLAUDE.md carried
+a "Naming:" line (Map section) absent from the mirror — root and
+mirror were NOT byte-identical despite the 06.08 certification.
+Line content verified true (doctrine/ ↔ acp-doctrine confirmed via
+origin URL). Ruled benign process miss by Tower; mirror brought
+fully current. Lesson parked: mirror sync must be part of any
+session that edits root, not a separate errand.
