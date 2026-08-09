@@ -184,3 +184,13 @@ Status: CLOSED. One commit to main, doc-only exemption. SHA reported to
   the Commander in chat.
 Next: nothing outstanding from this fix.
 Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered.
+
+## 2026-08-09 — Constitutional amendment: Dispatch Law installed in root
+CLAUDE.md (remote-session doctrine). Context: Dispatch paired to
+Commander's iPhone 09.08. Standing config locked same day: Code
+permissions manual, computer use OFF, no browser connected, run on
+startup OFF, keep awake ON. Law defines remote scope (preview-branch
+work only, ship actions desk-only), ambiguity rule (vague remote asks
+= read-and-report), end-of-watch rule. Amendment drafted by Tower,
+red-teamed (Amber, two plies integrated), installed by Sonnet Hands
+session (this entry).
