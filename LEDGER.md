@@ -202,3 +202,61 @@ Line content verified true (doctrine/ ↔ acp-doctrine confirmed via
 origin URL). Ruled benign process miss by Tower; mirror brought
 fully current. Lesson parked: mirror sync must be part of any
 session that edits root, not a separate errand.
+
+## 2026-08-11 — HOTICO campaign estate audit landed (constitution sync, doc-only)
+
+Full-tribunal estate audit of the HOTICO prototype campaign (`Ulgolan/hotico-proto`
+main @ `a0e18cd`), Commander-supplied, landed at
+`audits/2026-08-11-hotico-campaign-estate-audit.md` — byte-identical move
+from repo root, zero edits to content. Campaign sealed at tag
+`hotico-proto-v1`, merge `4b5652f`. Verdict: COMPLIANT, with amendments
+on the record (see the audit's own AMENDMENTS block).
+
+**KPI series founded.** `audits/KPI.md` created — the estate's first
+append-only KPI table, row #1 seeded from this audit: 0/33 PR-bounce,
+~0.26 eye-bounce/PR trending to 0 by R-4, ~0.21 Tower err/lap (9/~43,
+lap-denominator corrected per the audit's own A8 amendment), >=2 cert
+catches, >=3 Hands STOPs, 33 PRs merged + live deploy, client signal
+T2 for changes-shipped with final-state approval UNMEASURED, oldest
+open ruling ~3 days (Finding B), 16 doctrine-debt items, cost line
+carried as Commander testimony (11d / 8 Tower / 21 Hands / ~80-20
+Sonnet-Opus) — hours themselves UNMEASURED, per the audit's F3 finding
+that cost is structurally invisible in the primary record.
+
+**Genesis header reconciled.** `templates/PROJECT-GENESIS.md` line 2
+bumped `v0.2` → `v0.3` and annotated: the `v0.3` amendment (`4442594`,
+2026-08-06) updated the template body without bumping this header line
+(the audit's F2(d) finding) — this lap fixes the header-only
+contradiction. No other line touched. The `v0.4` bump itself stays
+parked, per the audit's own R3 ruling, until the mandated
+post-first-deployment Polaris audit fires mid-camp.
+
+**Two laws named for the record, FIELD-TRIAL status.** Proposed by this
+audit (F1/F3, ratified in its R3 ruling) but explicitly NOT installed
+into any doctrine file this lap — naming them here is the full extent
+of this session's action on them, pending the Genesis Polaris audit:
+- **certification-emits-artifact** — certification of a build should
+  produce a re-runnable artifact (spec, matrix, harness), not just a
+  ledger sentence and a pass count.
+- **BATON COST line** — every session-close BATON block should carry
+  a cost line (sessions, model mix, rough hours) so cost stops being
+  invisible between audits.
+
+Doc-only lap per Genesis §3's exemption — all three files committed
+straight to main; Tower certifies post-hoc via raw pull at the reported
+SHA. The audit itself flips DRAFT-COMPLETE → RECORD-COMPLETE at that
+certification.
+
+>> BATON
+Session: 2026-08-11 — HOTICO estate audit landed, KPI series founded,
+  Genesis header reconciled
+Status: CLOSED. Commits to main, doc-only exemption. SHAs reported to
+  the Commander in chat.
+Next: Tower certifies via raw pull at the reported SHA — audit flips
+  DRAFT-COMPLETE → RECORD-COMPLETE on that certification. Genesis
+  Polaris audit + formal v0.4 fire mid-camp (per R3), with two field
+  deployments (HOTICO + the Design Lab camp project) as its data.
+Open: certification-emits-artifact and BATON COST line sit at
+  FIELD-TRIAL status, not yet installed into any doctrine file — wait
+  on the Polaris audit before codifying. INTEGRITY-AUDIT.md still
+  unrun — 0/2 manual passes ledgered.
