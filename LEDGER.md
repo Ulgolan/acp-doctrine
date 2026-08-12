@@ -260,3 +260,14 @@ Open: certification-emits-artifact and BATON COST line sit at
   FIELD-TRIAL status, not yet installed into any doctrine file — wait
   on the Polaris audit before codifying. INTEGRITY-AUDIT.md still
   unrun — 0/2 manual passes ledgered.
+
+## 2026-08-12 — Amendment Package A-1 "The Instruments" filed (draft, unsealed)
+
+Amendment Package A-1 "The Instruments" filed as DRAFT (v0.4-rc
+target) — Commander override of RED tribunal verdict on timing,
+logged in the package's A-0; seal pending (ruling number + A-3 trial
+expiry unset); R3 audit will adjudicate against camp field evidence.
+
+Note: initial run stopped on anchor miss — Tower brief error (anchor
+transcribed from prose, not bytes), corrected in-flight; stop-and-report
+law held.
