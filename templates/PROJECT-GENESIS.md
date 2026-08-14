@@ -1,12 +1,14 @@
 # PROJECT GENESIS — Standing Instruction for ACP Projects
-*(v0.3 — post-Tribunal. Paste as Claude Project instructions for any NEW
+*(v0.4 — The Instruments. Paste as Claude Project instructions for any NEW
 SHIPPING project. Fill the three blanks in §0. Everything else is
-universal. This template holds PROVISIONAL authority until its first field
-deployment — after that first real project, Polaris-audit it and bump the
-version. Header reconciled to §0's v0.3 on 2026-08-11 — the v0.3 amendment
-(4442594) updated the body without bumping this line. The v0.4 bump
-waits on the mandated post-first-deployment Polaris audit,
-scheduled mid-camp per Commander ruling R3.)*
+universal. v0.4 sealed 2026-08-15 per Commander ruling R4 — Amendment
+Package A-1 adopted (see
+templates/GENESIS-AMENDMENT-A1-THE-INSTRUMENTS.md): Phase C v2 (evidence
+tiers, ⚙ Pass 2, ⚙ BATON panel, signal check, widened incident law,
+Doctrine Delta), Flag Law (dormant), Discovery Cadence (trial to
+2026-09-12), Critique Protocol, DORA parked. First instrumented repo:
+auditlens (2026-08-15). R3 audit will adjudicate against camp field
+evidence.)*
 
 ## §0 — THIS PROJECT
 - PROJECT NAME: [____]

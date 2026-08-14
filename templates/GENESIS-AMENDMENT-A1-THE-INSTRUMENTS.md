@@ -224,12 +224,12 @@ instrument — by design, not by accident.
 
 ## A-8 — SEAL BLOCK
 
-- [ ] Commander read in full
-- [ ] Trial expiry date set for A-3: `____-__-__`
-- [ ] Ruling number assigned to the override: `R__`
-- [ ] Sealed as v0.4-rc → Genesis header bumped, changelog line added
-- [ ] Mirror synced, ledgered, committed, pushed — atomically
-- [ ] R3 audit scope updated: adjudicate A-1…A-6 against camp field
+- [x] Commander read in full
+- [x] Trial expiry date set for A-3: `2026-09-12`
+- [x] Ruling number assigned to the override: `R4`
+- [x] Sealed as v0.4-rc → Genesis header bumped, changelog line added
+- [x] Mirror synced, ledgered, committed, pushed — atomically
+- [x] R3 audit scope updated: adjudicate A-1…A-6 against camp field
       evidence
 
 *Chats are disposable. The files are the institution. Ship laws that

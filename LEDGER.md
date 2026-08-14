@@ -271,3 +271,10 @@ expiry unset); R3 audit will adjudicate against camp field evidence.
 Note: initial run stopped on anchor miss — Tower brief error (anchor
 transcribed from prose, not bytes), corrected in-flight; stop-and-report
 law held.
+
+## 2026-08-15 — A-1 "The Instruments" SEALED (ruling R4)
+
+2026-08-15 — A-1 "The Instruments" SEALED (ruling R4). Genesis v0.3 →
+v0.4. A-3 discovery-cadence trial expires 2026-09-12. ⚙ clauses live
+on auditlens (first instrumented repo, PR #2 merged 49fc53a, repo
+public, ruleset enforced, secret armed).
