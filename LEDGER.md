@@ -308,3 +308,42 @@ Next: Commander manual step — sync Claude Project instructions mirror
   to the new consolidated file.
 Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered. R3
   Polaris audit + two field deployments still pending mid-camp.
+
+## 2026-08-17 — Amendment Package A-2 "The Ledger's Gravity" SEALED
+
+`templates/PROJECT-GENESIS.md` v0.4 → v0.5 sealed per Commander ruling.
+Amendment Package A-2 "The Ledger's Gravity" adopted at the SolJour Lap
+2 boundary, applied byte-faithful (four FIND/REPLACE edits, each anchor
+verified landing exactly once against the in-repo tip before editing):
+**branch-point law** (an ignition key's branch point is always the
+current main tip, verified doc-only/ledger-append since the last
+certified SHA — never a frozen SHA alone; a SHA quoted inside a ledger
+entry is never the tip), **ledger-append law + pre-merge micro-entry
+codicil** (session-close LEDGER appends may land directly on main in
+any Genesis repo, append-only, post-hoc Tower certification mandatory;
+where a merge gate checks commits at push time, certification
+micro-entries ride the lap branch as its final commit before the merge),
+and **photograph doctrine** (the harness photographs certified current
+behavior, not a shrine — a legitimately changed behavior gets the
+photograph retaken and certified, never contorted code to keep old
+assertions green). All three field-proven in SolJour LEDGER #5–#8
+before this adoption (two Tower briefing errors, both caught by
+executor stop-and-report law, zero damage); R3 Polaris audit
+adjudicates A-2 alongside A-1 against field evidence.
+`templates/archive/AMENDMENT-PACKAGE-A2.md` archived (copied, per A-1
+precedent) for the provenance chain.
+
+Note: mirror sync (Claude Project instructions) = Commander manual
+step — this session cannot reach that surface.
+
+Doc-only lap, straight to main per the Genesis doc-only exemption.
+
+>> BATON
+Session: 2026-08-17 — Amendment Package A-2 sealed, Genesis v0.5
+  (doc-only)
+Status: CLOSED. Single commit to main, doc-only exemption. SHA reported
+  to the Commander in chat.
+Next: Commander manual step — sync Claude Project instructions mirror
+  to v0.5. R3 Polaris audit adjudicates A-1 and A-2 together against
+  SolJour + AuditLens field evidence.
+Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered.

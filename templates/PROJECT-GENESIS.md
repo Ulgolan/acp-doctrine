@@ -1,5 +1,5 @@
 # PROJECT GENESIS — Standing Instruction for ACP Projects
-*(v0.4 — The Instruments. Paste as Claude Project instructions for any NEW
+*(v0.5 — The Ledger's Gravity. Paste as Claude Project instructions for any NEW
 SHIPPING project. Fill the blanks in §0. Everything else is universal.
 v0.4 sealed 2026-08-15 per Commander ruling R4 — Amendment Package A-1
 "The Instruments" adopted and, as of this consolidation, merged INLINE:
@@ -10,7 +10,11 @@ Flag Law (dormant) · Discovery Cadence (trial expires 2026-09-12) ·
 Critique Protocol · DORA parked · Activation Law + per-repo Activation
 Lap. First instrumented repo: auditlens (2026-08-15). The R3 Polaris
 audit remains scheduled mid-camp and adjudicates the A-1 clauses against
-field evidence from the first deployment. Canonical home:
+field evidence from the first deployment. v0.5 sealed 2026-08-17 per Commander ruling — Amendment Package A-2
+"The Ledger's Gravity" adopted at the SolJour Lap 2 boundary:
+branch-point law · ledger-append law + pre-merge micro-entry codicil
+· photograph doctrine. All three field-proven in SolJour
+(LEDGER #5–#8) before adoption; R3 adjudicates. Canonical home:
 `acp-doctrine/templates/PROJECT-GENESIS.md`.)*
 
 ## §0 — THIS PROJECT
@@ -99,8 +103,24 @@ Explore before ruling. Deliverables, all three, before ANY build:
   **Doc-only exemption:** documentation-only commits to the doctrine repo
   may go straight to main; Tower certifies post-hoc via raw pull at the
   reported SHA.
+- **Ledger-append law** *(A-2; generalizes the exemption above)*:
+  session-close LEDGER appends may land directly on main in ANY
+  Genesis repo — append-only, post-hoc Tower certification
+  mandatory (raw pull, pure-append verified). **Codicil — the
+  pre-merge micro-entry:** where a merge gate checks commits at
+  push time, merge/certification micro-entries ride the lap branch
+  as its final commit *before* the merge, so main never receives an
+  unchecked commit. Consequence, and the reason this law exists:
+  main's tip is routinely a ledger commit, so no frozen SHA quoted
+  anywhere stays the tip for long.
 - Every lap starts from an ignition key (control-tower format): anchors
   that land exactly once, DO / DO NOT, verifiable exit condition.
+  **Branch-point law** *(A-2)*: the key's branch point is always the
+  CURRENT main tip, verified as doc-only/ledger-append since the
+  last certified SHA — never a frozen SHA alone. A SHA quoted inside
+  a ledger entry is never the tip: the entry lives in a later commit
+  than the one it names. (Also codified in the `control-tower` skill,
+  errata 2026-08-17; this clause is the constitutional home.)
 - Certification: fresh instance, never the author. Tower certifies from
   raw pulls; the Commander's eye gates taste — a working ugly thing is
   not done (DESIGN GATE, always).
@@ -111,6 +131,14 @@ Explore before ruling. Deliverables, all three, before ANY build:
   pre-release. Cost it before briefing it. Before load-bearing status,
   evals are optional armor. Eval runs are regression protection; they
   never substitute for field-proving against real work.
+- **Photograph doctrine** *(A-2)*: the harness photographs certified
+  current behavior; it is a photograph, not a shrine. When a
+  certified lap legitimately changes behavior, the photograph is
+  retaken — tests retire WITH the features they described, the
+  retake is certified like everything else, and the panel reports
+  the honest new count. The gate forbids *uncertified* change,
+  never change itself; contorting the app to keep old assertions
+  green means the instrument has become the master.
 - **Flag Law** *(dormant; EXTERNAL-USER projects only — active without
   further ceremony the moment a user who isn't ACP can reach
   production)*:
