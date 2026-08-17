@@ -353,3 +353,94 @@ Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered.
 A-2 seal = Commander ruling R5, assigned post-seal 2026-08-17;
 constitution seal line amended to match. Ruling sequence: R4 = A-1,
 R5 = A-2.
+
+## 2026-08-17 — Integrity Audit manual pass 1/2
+
+*This report certifies file integrity, not product behavior. The
+Commander's device remains the only runtime truth.*
+
+Five-pass runbook (`INTEGRITY-AUDIT.md` v1.0) executed manually against
+`acp-doctrine` at HEAD `b7502d1` (origin not yet updated at pass time —
+see Pass 1). Findings-only: zero fixes applied in-review; every item
+below is backlog, caged behind declared priorities.
+
+**Pass 1 — Truth alignment: PASS, with one flagged transient (T1).**
+Working tree clean except pre-existing untracked `.DS_Store` (see Pass
+2). `git log` and local `git status` agree with each other. At the
+moment this pass ran, local `HEAD` (`b7502d1`, the R5 seal commit) sat
+one commit ahead of `origin/main` (`03aab38`) — flagged per protocol
+("any local commit not yet pushed"), but neither LEDGER.md nor
+CLAUDE.md asserts that commit as already shipped, so no claim
+contradicts git state. Resolves at this same session's push (below).
+
+**Pass 2 — Map vs. territory: 2 MINOR.**
+- MINOR (T2): `CLAUDE.md`'s Map section documents the surrounding
+  acp-command-center ecosystem (sibling repos `doctrine/`, `auditlens/`,
+  `.claude/skills/`) — it is a mirror of the root constitution, not a
+  map of `acp-doctrine`'s own tree. No section anywhere in this repo
+  maps its own tracked files (`INTEGRITY-AUDIT.md`, `UNIVERSAL-LAWS.md`,
+  `templates/`, `vibecode-foundry/`, `acp-writing-style/`, `audits/`).
+  Not necessarily broken — these are cross-referenced via LEDGER — but
+  Pass 2's map-vs-territory premise has no internal map to diff against
+  in this repo as currently scoped.
+- MINOR (T1, recurring): `.DS_Store` untracked at repo root, no
+  `.gitignore` anywhere in the repo. First flagged in the 2026-08-06
+  estate walk (item 2); still present and unresolved 12 days later. A
+  future broad `git add -A`/`git add .` would sweep it in.
+
+**Pass 3 — Reference integrity: 1 MINOR, 1 dynamic set enumerated.**
+- MINOR (T1, recurring): `ACP_VOICE_FORENSIC_REPORT.md`, referenced by
+  `acp-writing-style/SKILL.md:16` and this ledger's 2026-08-06 entry,
+  confirmed still absent from the repo (`find` returns nothing). First
+  flagged 2026-08-06 (item 5); still unresolved.
+- Dynamic, enumerated per protocol (not a finding): `IA_CANON.md`,
+  referenced from `CLAUDE.md`, `vibecode-foundry/IA_CANON_SPEC.md`, and
+  `vibecode-foundry/SKILL.md` — a per-project template filename each
+  shipping project instantiates at its own repo root, not expected to
+  exist inside `acp-doctrine` itself.
+- All other static same-repo references checked (`UNIVERSAL-LAWS.md`,
+  `INTEGRITY-AUDIT.md`, `CLAUDE.md`, `LEDGER.md`,
+  `templates/PROJECT-GENESIS.md`, both `templates/archive/` files,
+  `vibecode-foundry/SKILL.md`, `vibecode-foundry/IA_CANON_SPEC.md`,
+  `audits/KPI.md`, `audits/2026-08-11-hotico-campaign-estate-audit.md`)
+  resolve. PASS. The hotico estate-audit report's internal references
+  (`PRODUCTION-HANDOFF.md`, `STATE-MAP.md`, `docs/POLARIS.md`,
+  `README.md`) point into the external `hotico-proto` repo the report
+  describes — out of scope for this repo's reference walk, noted rather
+  than silently skipped.
+
+**Pass 4 — Canon compliance: 1 CRITICAL.**
+- CRITICAL (T2): `CLAUDE.md` carries no TOKEN CANON declaration. Per
+  protocol this is an automatic CRITICAL and the pass stops there —
+  vocabulary-drift checking against a canon that was never declared is
+  not performed this pass.
+
+**Pass 5 — Ledger vs. git log sync: PASS (T2, sampled).**
+All 28 `acp-doctrine` commits trace to one of 13 LEDGER.md session
+entries, 2026-07-24 → 2026-08-17. Every SHA this ledger cites as an
+`acp-doctrine` commit exists in `git log` (`081b19d`, `4442594`,
+`d5a697b`, `e1a7d66`, plus this session's `03aab38`/`b7502d1`). Every
+SHA cited but absent from this repo's log (`218576b`, `49fc53a`,
+`4b5652f`, `66f1e18`, `84364fd`, `8b3123b`, `a0e18cd`) is explicitly
+attributed in its own sentence to a different named repo (`auditlens`,
+`popescuportfolio`, `hotico-proto`) — no orphaned or ambiguous claim
+found.
+
+**Tally: 1 CRITICAL, 4 MINOR, 2 PASS (Pass 1 transient self-resolves
+this session).** All findings caged to backlog per the project's
+declared priorities — zero fixes applied in this review.
+
+>> BATON
+Session: 2026-08-17 — Integrity Audit manual pass 1/2 (doc-only)
+Status: CLOSED. Pass 1/2 ledgered. Mirror sync (Claude Project
+  instructions) still Commander-manual. R3 Polaris audit adjudicates
+  A-1 + A-2 together against SolJour + AuditLens field evidence.
+Next: manual pass 2/2 — required before any automation of
+  INTEGRITY-AUDIT.md per its own manual-runs-first rule. Backlog carries
+  this pass's 1 CRITICAL (no TOKEN CANON declaration) + 4 MINOR (map
+  scope gap, `.DS_Store`/no `.gitignore`, dead `ACP_VOICE_FORENSIC_REPORT.md`
+  reference, this session's transient unpushed commit — resolved by
+  this session's own push).
+Open: R3 Polaris audit + two field deployments still pending mid-camp.
+HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
+  signals n/a.
