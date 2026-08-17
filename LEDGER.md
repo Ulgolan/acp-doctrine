@@ -347,3 +347,9 @@ Next: Commander manual step — sync Claude Project instructions mirror
   to v0.5. R3 Polaris audit adjudicates A-1 and A-2 together against
   SolJour + AuditLens field evidence.
 Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered.
+
+## 2026-08-17 — A-2 seal ruling number recorded (R5)
+
+A-2 seal = Commander ruling R5, assigned post-seal 2026-08-17;
+constitution seal line amended to match. Ruling sequence: R4 = A-1,
+R5 = A-2.

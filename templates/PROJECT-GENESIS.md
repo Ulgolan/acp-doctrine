@@ -10,7 +10,7 @@ Flag Law (dormant) · Discovery Cadence (trial expires 2026-09-12) ·
 Critique Protocol · DORA parked · Activation Law + per-repo Activation
 Lap. First instrumented repo: auditlens (2026-08-15). The R3 Polaris
 audit remains scheduled mid-camp and adjudicates the A-1 clauses against
-field evidence from the first deployment. v0.5 sealed 2026-08-17 per Commander ruling — Amendment Package A-2
+field evidence from the first deployment. v0.5 sealed 2026-08-17 per Commander ruling R5 — Amendment Package A-2
 "The Ledger's Gravity" adopted at the SolJour Lap 2 boundary:
 branch-point law · ledger-append law + pre-merge micro-entry codicil
 · photograph doctrine. All three field-proven in SolJour
