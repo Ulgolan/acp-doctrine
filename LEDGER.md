@@ -278,3 +278,33 @@ law held.
 v0.4. A-3 discovery-cadence trial expires 2026-09-12. ⚙ clauses live
 on auditlens (first instrumented repo, PR #2 merged 49fc53a, repo
 public, ruleset enforced, secret armed).
+
+## 2026-08-17 — Genesis v0.4 consolidated into single canonical file
+
+`templates/PROJECT-GENESIS.md` overwritten byte-faithful with the
+Commander-supplied consolidated v0.4 file: the A-1 "The Instruments"
+amendment body is now merged INLINE, and the file stands as the single
+canonical Genesis document. `templates/GENESIS-AMENDMENT-A1-THE-INSTRUMENTS.md`
+archived (git mv, history preserved) to `templates/archive/`. MINOR
+finding "§0 pre-filled v0.3" cleared by this commit.
+
+Tower anchor imprecision caught by executor stop-and-report, amended
+in-flight — per the errors-are-ledgered law: the Tower's initial
+ignition key anchored on the header containing "v0.4" exactly once,
+but the header legitimately mentions v0.4 twice; the executor stopped
+rather than improvise, and the Tower amended the anchor to "sealed
+2026-08-15 per Commander ruling R4" (verified exactly once) before
+authorizing proceed.
+
+Doc-only lap, straight to main per the Genesis doc-only exemption.
+Mirror sync (Claude Project instructions) = Commander manual step —
+this session cannot reach that surface.
+
+>> BATON
+Session: 2026-08-17 — Genesis v0.4 consolidation (doc-only)
+Status: CLOSED. One commit to main, doc-only exemption. SHA reported to
+  the Commander in chat.
+Next: Commander manual step — sync Claude Project instructions mirror
+  to the new consolidated file.
+Open: INTEGRITY-AUDIT.md still unrun — 0/2 manual passes ledgered. R3
+  Polaris audit + two field deployments still pending mid-camp.

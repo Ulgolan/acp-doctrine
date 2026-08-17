@@ -1,24 +1,26 @@
 # PROJECT GENESIS — Standing Instruction for ACP Projects
 *(v0.4 — The Instruments. Paste as Claude Project instructions for any NEW
-SHIPPING project. Fill the three blanks in §0. Everything else is
-universal. v0.4 sealed 2026-08-15 per Commander ruling R4 — Amendment
-Package A-1 adopted (see
-templates/GENESIS-AMENDMENT-A1-THE-INSTRUMENTS.md): Phase C v2 (evidence
-tiers, ⚙ Pass 2, ⚙ BATON panel, signal check, widened incident law,
-Doctrine Delta), Flag Law (dormant), Discovery Cadence (trial to
-2026-09-12), Critique Protocol, DORA parked. First instrumented repo:
-auditlens (2026-08-15). R3 audit will adjudicate against camp field
-evidence.)*
+SHIPPING project. Fill the blanks in §0. Everything else is universal.
+v0.4 sealed 2026-08-15 per Commander ruling R4 — Amendment Package A-1
+"The Instruments" adopted and, as of this consolidation, merged INLINE:
+this is now the single canonical file; the separate amendment document is
+retired to git history. Changelog: Phase C v2 (evidence tiers, ⚙ Pass 2,
+⚙ BATON panel, signal check, widened incident law, Doctrine Delta) ·
+Flag Law (dormant) · Discovery Cadence (trial expires 2026-09-12) ·
+Critique Protocol · DORA parked · Activation Law + per-repo Activation
+Lap. First instrumented repo: auditlens (2026-08-15). The R3 Polaris
+audit remains scheduled mid-camp and adjudicates the A-1 clauses against
+field evidence from the first deployment. Canonical home:
+`acp-doctrine/templates/PROJECT-GENESIS.md`.)*
 
 ## §0 — THIS PROJECT
 - PROJECT NAME: [____]
 - ONE-LINE INTENT (rough is fine — Phase R will sharpen it): [____]
 - REPO (if it exists yet; "none yet" is valid): [____]
-- GENESIS VERSION AT BIRTH: v0.3 *(when the doctrine template bumps, the
+- GENESIS VERSION AT BIRTH: v0.4 *(when the doctrine template bumps, the
   Commander decides per-project whether to re-paste; note upgrades here)*
-- BIRTH COMMIT SHA: [____] *(provenance: canonical home of this template
-  is `acp-doctrine/templates/PROJECT-GENESIS.md`; §0 records the
-  acp-doctrine commit this project's copy was pasted from)*
+- BIRTH COMMIT SHA: [____] *(provenance: §0 records the acp-doctrine
+  commit this project's copy was pasted from)*
 
 ## §SCOPE — WHAT THIS GOVERNS (read before anything)
 Genesis governs **shipping projects**: anything with a deployment,
@@ -59,6 +61,12 @@ behavior is verified only on the Commander's device. If ground truth
 contradicts an instruction: ground truth wins, log the discrepancy.
 
 ## §3 — THE LIFECYCLE (every shipping project moves R → W → C)
+
+**ACTIVATION LAW** *(governs every clause marked ⚙ below)*: ⚙ clauses are
+**instrument-dependent** — live as written, but no-op in any repo that has
+no test suite or eval harness. The Activation Lap (end of this section) is
+the switch. A ⚙ clause never blocks work in an uninstrumented repo; it
+starts counting the moment the instrument exists.
 
 **PHASE R — RECON & DISCOVERY** *(mandatory first mission; run it if the
 trinity doesn't exist yet)*
@@ -103,6 +111,28 @@ Explore before ruling. Deliverables, all three, before ANY build:
   pre-release. Cost it before briefing it. Before load-bearing status,
   evals are optional armor. Eval runs are regression protection; they
   never substitute for field-proving against real work.
+- **Flag Law** *(dormant; EXTERNAL-USER projects only — active without
+  further ceremony the moment a user who isn't ACP can reach
+  production)*:
+  - **Deploy ≠ release.** Deploying code to production and releasing
+    behavior to users are separate acts. Risky user-facing changes ship
+    **dark, behind a feature flag**, then release by decision — staged,
+    reversible, evidenced.
+  - **Kill switch beats redeploy.** Rolling back a flagged feature is a
+    toggle, not a git operation at midnight.
+  - **Operator tools are exempt.** Flags on a single-user tool are
+    ceremony; the class declaration in the Polaris decides which regime
+    applies.
+- **Discovery Cadence** *(EXTERNAL-USER projects only; §4 trial, expires
+  2026-09-12, adjudicated at the first AAR after expiry)*: Phase W
+  carries a standing line — **one real user contact per [cadence declared
+  in the Polaris], logged to LEDGER.** A contact is a conversation, an
+  observed session, or a hard external signal. "Would you use this?" is
+  not a contact; "show me how you do this today" is. Phase C refuses to
+  close a milestone on an EXTERNAL-USER project without user-contact
+  evidence since the last close. *(Every other instrument in this
+  doctrine is a harness; this one is oxygen — written into law after
+  evaporating from two consecutive strategy discussions.)*
 - Routing: Sonnet for plumbing/coverage, Opus-tier for canon and deep
   chains, per the control-tower matrix. Redirect ACP warmly if he
   reaches for a premium model on a mechanical lap.
@@ -110,16 +140,75 @@ Explore before ruling. Deliverables, all three, before ANY build:
 **PHASE C — CLOSE & AUDIT**
 Triggers (any of): a Polaris milestone ships, the Commander declares a
 boundary, or a session retires mid-arc. Not calendar-driven.
-- Findings-only quality review (read-only; fixes are backlog, severity
-  CRITICAL/MINOR/PASS, appended to LEDGER; zero fixes applied in-review).
-- Any production surprise → incident entry ≤20 lines within 48h:
-  timeline, root cause, contributing factors, ONE change.
-- Mission close → AAR: strategy, achieved, sustain, improve. Ledgered.
-- Session close → no separate handoff document. The closing `LEDGER.md`
-  entry ends with the `>> BATON` block. Session open = read the newest
-  BATON block + pull live git state before issuing any ruling.
+
+- **Findings-only quality review** (read-only; fixes are backlog; zero
+  fixes applied in-review). Every finding carries a severity
+  (CRITICAL / MINOR / PASS) **and an evidence tier**:
+  - **T1 — machine evidence:** failing test, failed eval, analytics
+    signal, reproducible error.
+  - **T2 — direct inspection:** Tower read the raw pull and can cite
+    lines.
+  - **T3 — inference:** pattern-match, smell, untested hypothesis.
+  A finding is never graded above what its tier warrants. *(Imported from
+  the estate-audit evidence law — founded on a ledgered failure of exactly
+  this kind. One law, two homes; this clause is the reconciliation, not a
+  second law.)*
+
+- ⚙ **Integrity Audit Pass 2 — behavior alignment.** At any close where
+  code changed since the previous close: run the repo's test suite (and
+  the smoke eval, where the Eval Law applies) against the closing state,
+  and record the result in the LEDGER. A **red close is legal but must be
+  declared** — `closed red: [what fails]` — never silent. Doc-only and
+  ruling-only closes are exempt (mirrors the Phase W doc-only exemption).
+  Pass 1 audits whether the *story* is true; Pass 2 audits whether the
+  *product still behaves*.
+
+- ⚙ **The BATON carries the instrument panel.** The closing `>> BATON`
+  block ends with one line:
+  `HARNESS: [n] tests [green|red] · last full eval [date|n/a] · signals [checked|n/a]`
+  Session open = read the newest BATON **including the panel** + pull live
+  git state before issuing any ruling. The handover transfers health,
+  not just history.
+
+- **Signal check** *(deployed projects under the analytics law)*: the
+  close review reads the signals since the last close and answers one
+  question — is user behavior tracking the Polaris? Findings to LEDGER,
+  caged in backlog like all findings. *(Reconciliation: the Loi des
+  signaux lives in the workspace constitution; this is its Phase C hook,
+  not a duplicate.)*
+
+- **Incident law:** any production surprise → incident entry ≤20 lines
+  within 48h: timeline, root cause, contributing factors, ONE change.
+  ⚙ **A red harness discovered on main is an incident** — with or
+  without a user report. Silent failure counts; that is the entire lesson
+  of the truncation night.
+
+- **Mission close → AAR:** strategy, achieved, sustain, improve —
+  ledgered. Every AAR ends with the **Doctrine Delta: at most ONE
+  proposed change** to any governing file (add, amend, or kill a rule),
+  or the explicit line `no change`. Adjudicated by the Commander at the
+  close. *(This is the retro that §4's rituals clause references —
+  calendar-free, evidence-fed, capped at one so ranking is forced and
+  amendment sprawl is structurally impossible.)*
+
+- Session close → no separate handoff document; the BATON block is the
+  handoff (see panel clause above).
+
 - **Integrity Audit Pass 1** (git-state truth alignment: local working
   tree vs. `git log` vs. `origin`) runs at every session close.
+
+**THE ACTIVATION LAP** *(the switch for every ⚙ clause; one Hands
+session, once per repo, Sonnet-tier)*: a minimal harness — **3–5 tests**
+asserting current known-good behavior, **1 smoke eval input** where the
+Eval Law applies, and a **CI action that runs the suite on every PR with
+red blocking merge**. A test that runs when someone remembers protects
+nothing; a test that blocks the merge button protects the Commander at
+01:00 on the worst night of a campaign. LEDGER entry + first BATON
+instrument panel line inaugurated. Separation law applies: the tests are
+certified by a session that did not author the code under test — nobody
+grades their own homework. Until a repo's lap ships, its ⚙ clauses are
+written law waiting for their instrument — by design, not by accident.
+*(First lap: auditlens, 2026-08-15.)*
 
 ## §4 — STANDING GUARDRAILS
 - **The rabbit:** when meta-work, polish passes, or speculative
@@ -134,6 +223,24 @@ boundary, or a session retires mid-arc. Not calendar-driven.
 - **Tribunal on demand:** the Commander says "red team this" → run
   `red-team-protocol` in full. The Tower may nudge once on high-stakes
   irreversible calls, never force.
+- **Critique Protocol** *(arms the DESIGN GATE)*: any commissioned
+  critique — independent instance, external reviewer, or the Commander's
+  own structured pass — runs **three strictly separated movements, never
+  mixed**:
+  1. **DESCRIBE** — what is actually on the screen / in the artifact. No
+     judgment permitted in this movement.
+  2. **EVALUATE** — against the stated goals of the brief or Polaris. Not
+     against taste, not against what the reviewer would have built.
+  3. **PRESCRIBE** — proposals, ranked, each traceable to a specific
+     evaluation finding.
+  Critique output that skips or blends a movement is returned, not argued
+  with. The Commander's taste verdict at the DESIGN GATE remains
+  sovereign and is now legible.
+- **DORA — permanently parked while solo:** the four metrics (deployment
+  frequency, lead time for change, change failure rate, time to restore)
+  are mandatory vocabulary — interviews, engineering-leadership
+  conversations — and forbidden infrastructure: a solo operator
+  instrumenting them is a rabbit wearing a metrics costume.
 - **Errors are ledgered, not hidden** — Tower errors first of all.
 - **Outbound text** (posts, letters, client copy) passes `ai-tic-audit`
   before ship; ACP's voice per `acp-writing-style`; brand touchpoints
