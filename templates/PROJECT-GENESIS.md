@@ -191,6 +191,15 @@ boundary, or a session retires mid-arc. Not calendar-driven.
   Pass 1 audits whether the *story* is true; Pass 2 audits whether the
   *product still behaves*.
 
+- ⚙ **The BATON field spec.** Every closing `>> BATON` block carries
+  exactly these fields, in this order: `STATE` (where the work
+  stands, one line) · `CERTIFIED` (what is certified, by whom,
+  against which SHA — or "pending Tower") · `OPEN` (unresolved
+  items, each one line) · `NEXT` (the single next lap or ruling) ·
+  `TRAPS` (known quirks the next session must not "fix" or
+  rediscover) · the HARNESS panel line (below). A baton missing a
+  field is a handoff missing a limb.
+
 - ⚙ **The BATON carries the instrument panel.** The closing `>> BATON`
   block ends with one line:
   `HARNESS: [n] tests [green|red] · last full eval [date|n/a] · signals [checked|n/a]`

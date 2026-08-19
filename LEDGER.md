@@ -444,3 +444,56 @@ Next: manual pass 2/2 — required before any automation of
 Open: R3 Polaris audit + two field deployments still pending mid-camp.
 HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
   signals n/a.
+
+## 2026-08-19 — Campagne FORMULAIRE scar tissue codified (doc-only)
+
+Four laws appended to `UNIVERSAL-LAWS.md`, each cited against verified
+case studies rather than asserted from memory: **The Key Pre-Flight
+Law**, **Consumer lists are enumerated, never remembered**,
+**Manifests derive from the DOs**, and **The pulse marks the
+boundary**. Case studies drawn from Campagne FORMULAIRE
+(2026-08-19, `hotico-proto`): a key that ordered "keep the existing
+prototype note" on a page that had none (`hotico-proto` LEDGER entry
+#51, DEVIATION FLAGGED) and the phrase "both consumer pointers"
+letting a third consumer drift three versions stale before a
+Tribunal enumerated (entry #54). This closes the estate audit's
+outstanding **A1** and **pulse-habit** amendments as codified
+doctrine — both now CLOSED.
+
+**F-3 manifest-vs-DO contradiction — ledgered here for the first
+time.** The F-3 WhatsApp-handoff key's manifest declared five files
+while its own DOs required six files. Caught and resolved in-session
+by the executor on 2026-08-19; the deviation was never ledgered in
+`hotico-proto` itself. This entry is that contradiction's ledger of
+record, and the case study **The Key Pre-Flight Law** cites for its
+third example.
+
+**BATON field spec landed.** `templates/PROJECT-GENESIS.md` gains a
+sibling bullet directly before "The BATON carries the instrument
+panel": the six-field spec (`STATE` · `CERTIFIED` · `OPEN` · `NEXT`
+· `TRAPS` · the HARNESS panel line, in that order). This entry's
+closing block is the spec's first compliant instance.
+
+**`.gitignore` created.** Two entries, `.DS_Store` and `._*`,
+closing the estate audit's recurring MINOR finding (first flagged
+2026-08-06, still open as of the 2026-08-17 Integrity Audit pass).
+
+Doc-only lap per Genesis §3's exemption — all four files (
+`UNIVERSAL-LAWS.md`, `templates/PROJECT-GENESIS.md`, `.gitignore`,
+this entry) committed straight to main.
+
+>> BATON
+STATE: Four laws codified in `UNIVERSAL-LAWS.md`; BATON field spec
+  installed in `PROJECT-GENESIS.md`; `.gitignore` created; F-3
+  contradiction ledgered as its record of first mention.
+CERTIFIED: pending Tower — commit pushed straight to origin/main
+  this lap per the doc-only exemption; starting and ending SHAs
+  reported to the Commander in chat; certify via raw pull at the
+  ending SHA per the Raw GitHub Pulls law.
+OPEN: none from this lap. Carried forward unchanged: R3 Polaris
+  audit + two field deployments pending mid-camp; INTEGRITY-AUDIT.md
+  manual pass 2/2 still unrun.
+NEXT: Tower certifies via raw pull at the reported ending SHA.
+TRAPS: none known.
+HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
+  signals n/a.
