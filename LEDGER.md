@@ -497,3 +497,39 @@ NEXT: Tower certifies via raw pull at the reported ending SHA.
 TRAPS: none known.
 HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
   signals n/a.
+
+## 2026-08-21 — Gate Zero security section inserted into vibecode-foundry
+
+**Gate Zero — Security** inserted into `vibecode-foundry/SKILL.md`,
+immediately before `### The rogues' gallery`, per an ignition key
+drafted by the Tower off a Tribunal run (verdict Amber, six plies
+integrated). Seven checks (RLS, secrets, wallet guard, input
+discipline, paid-endpoint rate limits, server-side auth, nFADP
+business-data flag), a scope valve for static pages, and a standing
+brief-injection line for every future ignition key. Ground-truth
+questions (branch, HEAD SHA, anchor uniqueness, no prior Gate Zero
+section, clean tree) re-verified from local disk before the edit,
+per the key's own physics.
+
+**Staleness note:** the repo copy (`doctrine/vibecode-foundry/SKILL.md`)
+is now canonical-and-current. The read-only anthropic-skills registry
+copy and the claude.ai skill editor copy are both STALE as of this
+commit — ACP pastes the same Gate Zero block into the claude.ai skill
+editor by hand, above the rogues' gallery, same anchor. That paste
+cannot be delegated.
+
+>> BATON
+STATE: Gate Zero section landed in `vibecode-foundry/SKILL.md`,
+  verified by grep receipt (single occurrence, above the anchor;
+  anchor still occurs exactly once).
+CERTIFIED: pending Tower — this session was executor only, per the
+  no-self-certification rule.
+OPEN: claude.ai skill registry copy is stale until ACP pastes Gate
+  Zero into it by hand. Cross-reference edit to the estate-audit line
+  (Cross-references, file bottom) not yet applied — separate commit,
+  pending push confirmation.
+NEXT: Tower certifies via raw pull at the reported ending SHA. ACP
+  manually updates the claude.ai registry copy.
+TRAPS: none known.
+HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
+  signals n/a.
