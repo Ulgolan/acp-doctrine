@@ -70,6 +70,25 @@ Every active vibecoded product carries a versioned `IA_CANON.md` at repo root �
 5. **Nav divergence** — shipped navigation ≠ canon structure map.
 6. **Label inconsistency** — casing/verb convention breaks *(annex products only)*.
 
+### Gate Zero — Security (runs before the QA gate; a red here blocks launch)
+*Added 21 Aug 2026 after a Tribunal run on the "who's gonna tell vibe coders" threat list. Founding law: the Commander cannot read code, so no check in this gate may require reading code. Every item is a toggle, a dashboard panel, or an instrument with a binary verdict. The executor proves, the instrument certifies, the Commander rules.*
+
+**Scope valve:** Gate Zero applies in full to any product with user input, stored data, logins, or paid-API calls. A static page with none of these passes by inspection in one line — do not ceremonialize a brochure.
+
+**The seven checks, ordered by kill probability:**
+
+1. **RLS before everything.** Every Supabase table has Row Level Security ON, verified in the Supabase dashboard's Security Advisor (green, not "acknowledged"). The anon key is public by design; RLS is the only lock on the door. An exposed table via the anon key is the canonical vibecoder breach — this check outranks all others.
+2. **Secrets stay server-side, and a committed key is a burned key.** No API key in client code, ever — keys live in Vercel environment variables. Instrument: GitHub secret scanning / gitleaks, not eyeballs. Standing law: if a key ever touched a commit, it is rotated, not scrubbed — git history is forever, and grep-then-delete is false comfort.
+3. **Wallet guard.** Vercel spend limit ON (Settings → Billing). The platform protects uptime, not the bill — a scripted hammering of serverless functions is a wallet attack, not an outage. One toggle retires it.
+4. **Input discipline.** For any user input that gets stored or displayed, the executor names the escaping mechanism and which framework default proves it (React escapes by default; Supabase client parameterizes). `dangerouslySetInnerHTML` and hand-built SQL strings are banned without an explicit doctrine handshake.
+5. **Paid endpoints get a meter.** Any route that calls a paid API (Claude, image gen) ships with rate limiting, and the executor demonstrates the limit actually firing — a screenshot of the 429, not a promise.
+6. **Auth is server-side or it isn't auth.** If the product has logins, gating happens on the server; client-only checks are decoration. Proof: the executor hits a protected route logged out and shows the refusal.
+7. **The business-data flag.** If the product collects real people's data (HOTICO tier — client inquiries, bookings), Swiss nFADP applies. The gate demands three sentences in writing: what is collected, where it lives, how it gets deleted on request. This is legal exposure, not a technical nicety, and it cannot be delegated to an executor's optimism.
+
+**Brief injection (standing, same rank as the vocabulary table):** every ignition key carries the line — *"List the security implications of this feature and name the automated check that proves each one."* A brief without it does not ship. An executor who answers "none" must say why in one sentence; "none, it's a static visual change" is a legal and frequently correct answer.
+
+**The instruments shelf** (binary verdicts a non-coder reads): Supabase Security Advisor · GitHub secret scanning / gitleaks · `npm audit` · Vercel spend settings · the logged-out browser. Telemetry over vibes, here as everywhere.
+
 ### The rogues' gallery (anti-patterns; each one cost us or nearly did)
 Editing from a stale file (the "stale-file theory") · line-number edits across sessions · "while we're in there" scope · half-theming a system · speculative optimization from a vague "make it faster" · confident platform claims without console contact · letting genAI draw the actual logo or canon motifs · certifying your own work · a freeze without a manifest · narrating instead of measuring · generalizing from one page to four without inventorying the other three.
 
