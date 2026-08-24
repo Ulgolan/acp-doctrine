@@ -533,3 +533,21 @@ NEXT: Tower certifies via raw pull at the reported ending SHA. ACP
 TRAPS: none known.
 HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
   signals n/a.
+
+## 2026-08-24 — THE SCAR LEDGER FOUNDED
+
+Canonical catalogue SCAR-LEDGER.md lands at repo root; mantra-layer
+skill archived at skills/the-scar-ledger/SKILL.md and installed
+working at command-center .claude/skills/. Founded from a Commander
+insight (a list of learnings grants independence and self-reflection);
+harvested cold same-day from four LEDGERs and eight sessions (~35
+self-owned Tower errors, Jul-Aug 2026); distilled to seven failure
+modes; draft survived its own Tribunal (AMBER, three amendments,
+including an evidence overclaim caught inside the document about
+evidence overclaims). Append ritual per the skill: closing Tower
+proposes in BATON, next Tower cold-reviews, Commander ratifies in one
+word, Hands commit. Thesis line inherited verbatim from the
+hotico-proto ledger: keys are theories; every fired error traced to an
+unverified assumption, every catch to a pull of ground truth.
+Doc-only lap, straight to main per exemption; Tower certifies via raw
+pull post-merge.
