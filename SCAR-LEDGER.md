@@ -137,3 +137,11 @@ is split across a hard line-wrap. One breath of believing the flat read
 would have convicted a predecessor of a sentence he actually wrote. The
 multiline check confirmed it verbatim. Absence from a filtered read is
 not absence. Lesson I, live, during the audit of Lesson I.*
+
+*2026-08-31, gauntlet arc — three Tower misses in one session, same
+shape: stated from memory before pulling (repo visibility from a stale
+ledger line; limiter placement hypothesised before reading line order;
+spend cap attributed to Vercel, was the Anthropic console). Each caught
+by a Hands that measured. Lesson: the pincer held; the Tower's clock
+was fast. Rule reinforced: no verdict, hypothesis, or key sentence
+about the estate's state before a raw pull.*

@@ -597,3 +597,5 @@ Parked (Commander ruling on this key):
 (b) dashboard-export not yet ported to doctrine, and the card schema
     (action/slug/title/type/zone/tags/summary/checklist/link) has no
     station field — needs a schema change, doctrine-doctor pass.
+
+## 2026-08-31 — scar filed (Tower ground-truth, gauntlet arc); station 8 merge rule made explicit
