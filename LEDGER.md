@@ -279,6 +279,12 @@ v0.4. A-3 discovery-cadence trial expires 2026-09-12. ⚙ clauses live
 on auditlens (first instrumented repo, PR #2 merged 49fc53a, repo
 public, ruleset enforced, secret armed).
 
+CORRECTION (2026-08-30, auditlens Gate Zero pass): the "repo public"
+claim above was **false** on this date — auditlens did not actually go
+public until 30 Aug 12:37 UTC, two weeks later. The "ruleset enforced"
+claim was **true**, verified via `/rulesets` (ruleset "main-harness",
+id `20875261`, required check "harness" on `main`).
+
 ## 2026-08-17 — Genesis v0.4 consolidated into single canonical file
 
 `templates/PROJECT-GENESIS.md` overwritten byte-faithful with the
