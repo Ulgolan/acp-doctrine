@@ -145,3 +145,29 @@ spend cap attributed to Vercel, was the Anthropic console). Each caught
 by a Hands that measured. Lesson: the pincer held; the Tower's clock
 was fast. Rule reinforced: no verdict, hypothesis, or key sentence
 about the estate's state before a raw pull.*
+
+*2026-08-31, gauntlet arc, second batch — proposed in the closing BATON,
+cold-reviewed by the next session's Tower, ratified by the Commander per
+the append ritual. One scar, three incidents, clade I: the proof in hand
+was not the proof of the claim. A key's PHYSICS stated "0.00% on all 24"
+from run-1's cycle-0 report, never re-measured against current main (that
+root cause also produced the standing re-seed law); a correcting ruling
+graded an inference as verification — "10.14% matches the declared
+10.18%" compared different comparanda; a post-merge receipt reported a
+pipeline tail's exit code (always 0) with stderr suppressed. Refinement
+of Lesson I: residue is not only memory — a true document measuring the
+wrong thing feels, from inside, identical to the right one. Receipts show
+the measuring command's own exit code, stderr unsuppressed, comparanda
+named. Catch layers, for VII: one by a Hands that measured before
+obeying; two by the self-applied Tribunal — repeated observation that the
+structured adversarial pass catches what a plain re-read does not (T2,
+observation, not yet law).*
+
+*Same batch, one scar, clade V: a micro-lap key claimed the
+doc-only exemption permitted direct commits to main — contradicted by the
+repo's active main-harness ruleset, documented in the auditlens LEDGER
+and read at session open. Caught by the Hands at push. The exemption was
+born in repos without main protection; entering a new repo is a geometry
+change — re-try the standing process laws at the door. The doc-only
+exemption skips ceremony (preview branch, Commander eye), never repo
+rules.*
