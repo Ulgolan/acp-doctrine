@@ -8,6 +8,34 @@ description: ACP's build doctrine — the method that shipped popescuportfolio.c
 
 ## PART I — THE METHOD (portable to any build)
 
+### §0 THE SPINE — from raw idea to shipped product
+
+Twelve stations. Every project passes through them in order and records where it stands in its own `PIPELINE.md`. The Tower reads `PIPELINE.md` at every session open and rules on the NOW station only. A station is DONE when its exit proof exists as a file, a sha, or a link, never when someone says so.
+
+**Mandatory core** (every project, no exceptions): 0, 1, 2, 3, 4, 7, 8, 10, 11.
+**Conditional** (skipped with a written reason in PIPELINE.md): 5, 6, 9, 12.
+Skipping a mandatory station is not a shortcut; it is an unfounded project.
+
+**Design-system agnostic.** Station 4 is a slot, not a step. The pipeline runs identically on ACP's canon, on a client's existing system, or on a client who arrives with a PDF. The design system supplies the tokens and the laws; the pipeline supplies the machine that enforces them.
+
+| # | Station | Exit proof | Who |
+|---|---|---|---|
+| 0 | **Research.** Deep research prompts (meta-prompt-architect), external sources, competitive and user ground. | Research digest filed in the repo or the doctrine. | Commander + research tools |
+| 1 | **Found the repo.** New repo, never a monorepo. CLAUDE.md (Who, laws, founding rules), LEDGER.md, harness workflow + ruleset, Gate Zero checklist, `gauntlet/` instruments from template, Database Laws if a database is anywhere in the plan. | First commit with the trinity; harness green on an empty PR. | Hands, from templates |
+| 2 | **POLARIS brief.** Founding intent, dated, auditable. Refuses vagueness. | `POLARIS.md` committed. | Commander + Tower (polaris skill) |
+| 3 | **IA canon.** Vocabulary, objects, hierarchy, banned synonyms, before any pixel. | `IA_CANON.md` committed. | Commander + Tower (ia-canon) |
+| 4 | **Design-system slot.** Load one of three: (a) own canon vault → Claude Design brand kit; (b) client system → Figma variables read via MCP into tokens; (c) client PDF/logo → **tokenisation sub-station**: forge a system in Claude Design, freeze as Figma variables, export. The DS supplies the laws the critic will enforce at station 9. | Tokens file + laws list identified and linked in PIPELINE.md. | Commander + Tower rulings on divergence |
+| 5 | **Forge (Claude Design).** Explore directions with the DS loaded; choose between defensible directions on a named axis, never hunt for a look. | Chosen direction + token deltas recorded. | Commander; Tower rules on divergence only |
+| 6 | **Studio (Figma MCP).** Only when a screen needs component-level precision the forge cannot hold, or to produce reference frames for a station-9 option-B pass. | Frames exported at the project's viewports into `gauntlet/reference/`. | Commander |
+| 7 | **Propagate tokens.** Brand-kit pattern: tokens copied deliberately into the repo, assets copied, nothing imported live. | `globals.css` (or equivalent) matches the DS; Tower certifies against source. | Hands; Tower certifies |
+| 8 | **Build in sprints.** Per sprint: FREEZE.md (Law 10) → ignition key with ground-truth questions (Law 5) → Hands session → branch → preview → harness → Tower certification against raw → Commander's eye → merge. Small fixes direct; taste, scope, architecture through the Tower. | Merged PRs with green harness; LEDGER entry per sprint. | Tower briefs, Hands build, Commander merges |
+| 9 | **Gauntlet.** Polish pass on a FROZEN scope only (Law 10); lanes run sequentially, one variable at a time (Law 2). Builder/critic sub-agent pairs loop unattended against a falsifiable bar: rulebook rows always, reference frames when station 6 produced them. Caps from cycle-0 timing. Report + draft PR. Runs from `templates/gauntlet/`. | `GAUNTLET_REPORT.md` certified by the Tower. | Opus foreman, Sonnet hands, Tower certifies |
+| 10 | **DESIGN GATE.** Commander's eye on the preview. One knob. Only the Commander grades taste. | Ruling recorded in LEDGER. | Commander |
+| 11 | **Gate Zero → ship.** Security checklist with proofs; merge = production; analytics on from the first deploy. | Gate Zero table in LEDGER, production URL, signals live. | Hands prove, Commander flips billing toggles |
+| 12 | **Polaris audit.** Current state against the brief, on a cadence or at a milestone. Drift is named or the brief is amended; never silent. | Audit filed; PIPELINE.md NOW/NEXT updated. | Tower (polaris skill) |
+
+**Lessons the spine carries from its founding run** (gauntlet run 1, AuditLens, 31 Aug 2026): instruments only see the surfaces they are pointed at, so "zero failures" is a statement about the fence, not the app; a critic row that grades a declaration must demand traced evidence for a redeclaration; the foreman must never read raw instrument output, only the summary; caps come from measured cycle-0 timing, never from doctrine; every un-ledgered instrument is a debt.
+
 ### The Cast — three seats, any number of chats
 - **The Commander (ACP)** — vision, taste, verdicts, eyeballs on the live site. His one-sentence briefs are legal and frequently the best design documents of a sprint ("they begin hidden in the rectangle" produced the shipped rail entrance). Non-technical by declaration: he never needs to read code to rule on it, so every technical finding is translated into design consequences before it reaches him.
 - **The Tower (supervisor chat)** — verifies everything against ground truth, drafts and grades briefs, catches traps, reconciles knowledge across worker chats, owns the error ledger. Never edits blind; rarely edits at all (control-tower valve governs exceptions).
@@ -88,6 +116,8 @@ Every active vibecoded product carries a versioned `IA_CANON.md` at repo root �
 **Brief injection (standing, same rank as the vocabulary table):** every ignition key carries the line — *"List the security implications of this feature and name the automated check that proves each one."* A brief without it does not ship. An executor who answers "none" must say why in one sentence; "none, it's a static visual change" is a legal and frequently correct answer.
 
 **The instruments shelf** (binary verdicts a non-coder reads): Supabase Security Advisor · GitHub secret scanning / gitleaks · `npm audit` · Vercel spend settings · the logged-out browser. Telemetry over vibes, here as everywhere.
+
+Station 9, the gauntlet, runs from templates/gauntlet/; see PIPELINE.md for where a project stands.
 
 ### The rogues' gallery (anti-patterns; each one cost us or nearly did)
 Editing from a stale file (the "stale-file theory") · line-number edits across sessions · "while we're in there" scope · half-theming a system · speculative optimization from a vague "make it faster" · confident platform claims without console contact · letting genAI draw the actual logo or canon motifs · certifying your own work · a freeze without a manifest · narrating instead of measuring · generalizing from one page to four without inventorying the other three.

@@ -557,3 +557,43 @@ hotico-proto ledger: keys are theories; every fired error traced to an
 unverified assumption, every catch to a pull of ground truth.
 Doc-only lap, straight to main per exemption; Tower certifies via raw
 pull post-merge.
+
+## 2026-08-31 — Foundry Part I spine installed; PIPELINE.md tracker; gauntlet registered as station 9
+
+Twelve-station spine (§0 THE SPINE) installed as the opening section of
+vibecode-foundry Part I, immediately after the Part I title and before
+"The Cast," per Tower ignition key (KEY_doctrine-foundry-spine.md),
+executor Sonnet/Claude Code, branch `doctrine/foundry-spine`. Appendix A
+installed byte-for-byte verbatim except two Commander-ruled law
+cross-references: station 8 row now cites Law 10 (freeze) and Law 5
+(ground-truth questions); station 9 row now cites Law 10 (freeze) and
+Law 2 (one variable at a time). Both anchors hit exactly once before
+editing. Tokens-as-truth left uncited — no existing foundry law states
+it; Commander ruled it stays prose pending a future law. templates/PIPELINE.md
+created from Appendix B verbatim. Gauntlet instruments registered as
+station 9: the two AuditLens run-1 gauntlet keys copied into
+templates/gauntlet/ as KEY_gauntlet-setup.template.md and
+KEY_gauntlet-run.template.md, with every AuditLens-specific value
+(paths, baseline numbers, surface names, repo name) replaced by
+`[bracket]` placeholders — laws and row structure kept intact. One-
+paragraph pointer added to Part I under the Gate Zero instruments
+shelf, before "The rogues' gallery": "Station 9, the gauntlet, runs
+from templates/gauntlet/; see PIPELINE.md for where a project stands."
+Source: gauntlet run 1 on auditlens (its LEDGER, same date).
+
+VERIFY note (owned, not hidden): `grep -c "Station" vibecode-foundry/SKILL.md`
+returns 3 (8 case-insensitive, counting "stations"), short of the key's
+own stated ≥13 threshold. Appendix A was installed verbatim per the
+key's own "touch no other word of it" constraint — the shortfall is
+inherent to the appendix's own table wording (each row names its
+station by function — "Research," "Found the repo" — not by repeating
+the literal word "Station"), not an installation gap. The two added
+cross-reference edits and the closing pointer paragraph account for
+the small rise from what a verbatim install alone would show.
+
+Parked (Commander ruling on this key):
+(a) tokens-as-truth, and "exit proof is ground truth before opinion,"
+    as candidate laws for the next doctrine session.
+(b) dashboard-export not yet ported to doctrine, and the card schema
+    (action/slug/title/type/zone/tags/summary/checklist/link) has no
+    station field — needs a schema change, doctrine-doctor pass.
