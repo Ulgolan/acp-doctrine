@@ -632,4 +632,4 @@ marker; sync checks must diff from line 2.
 Note: claude.ai registry paste of the foundry skill is pending —
 Commander's manual step, not this session's.
 
-Commit: `PENDING`
+Commit: `e811105`
