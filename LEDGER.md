@@ -599,3 +599,37 @@ Parked (Commander ruling on this key):
     station field — needs a schema change, doctrine-doctor pass.
 
 ## 2026-08-31 — scar filed (Tower ground-truth, gauntlet arc); station 8 merge rule made explicit
+
+## 2026-09-02 — Fable 5.1 doctrine patch
+
+Two lines installed per Tower-authored key, GT2 corrected mid-key by
+Tower ruling (mirror-marker header is deliberate, not drift; amended
+diff check adopted). Anchors hit exactly once before each edit.
+
+**Lines added:**
+1. `vibecode-foundry/SKILL.md`, ignition-key template, immediately after
+   "IF AN ANCHOR DOESN'T HIT EXACTLY ONCE: stop and report. Do not
+   improvise." — `AUTONOMY: The Commander is not watching in real time.
+   Proceed on reversible steps that follow from this brief without
+   asking. STOP only for: an anchor that does not hit exactly once, a
+   ground-truth answer that kills a premise of this brief, a PHYSICS
+   constraint that cannot be met, or any destructive action. Report; do
+   not improvise.`
+2. Root `CLAUDE.md`, Hard rules section, immediately after "Sonnet is
+   the default hands. Opus only when precision earns it." — `Edit
+   surgically. When it will not affect the end result, make a targeted
+   edit rather than rewriting the whole file — rewrites cost tokens and
+   time and risk clobbering lines you did not mean to touch.`
+
+**Files touched:** `vibecode-foundry/SKILL.md`, `CLAUDE.md` (mirror,
+rebuilt marker + root content), this `LEDGER.md`. Root `CLAUDE.md`
+(outside this repo) edited but not committed here — not in git.
+`control-tower` deliberately not touched, per brief.
+
+**Mirror law clarified:** doctrine/CLAUDE.md = root + line-1 mirror
+marker; sync checks must diff from line 2.
+
+Note: claude.ai registry paste of the foundry skill is pending —
+Commander's manual step, not this session's.
+
+Commit: `PENDING`

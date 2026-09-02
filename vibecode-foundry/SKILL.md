@@ -71,6 +71,7 @@ DO: [exact find/replace pairs with unique anchors]
 DO NOT: [the OUT list + canon bans]
 VERIFY: [per-surface checklist, explicitly including the states a screenshot can't show]
 IF AN ANCHOR DOESN'T HIT EXACTLY ONCE: stop and report. Do not improvise.
+AUTONOMY: The Commander is not watching in real time. Proceed on reversible steps that follow from this brief without asking. STOP only for: an anchor that does not hit exactly once, a ground-truth answer that kills a premise of this brief, a PHYSICS constraint that cannot be met, or any destructive action. Report; do not improvise.
 ```
 
 ### Verification rituals

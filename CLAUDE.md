@@ -17,6 +17,7 @@ Needs support and comprehensive, mostly step-by-step explanations, in the right 
 - ACP grades all voice output. No exceptions.
 - Every project has a LEDGER.md: read it on open, append on close.
 - Sonnet is the default hands. Opus only when precision earns it.
+- Edit surgically. When it will not affect the end result, make a targeted edit rather than rewriting the whole file — rewrites cost tokens and time and risk clobbering lines you did not mean to touch.
 
 ## Skills
 See .claude/skills/ — invoke per their descriptions. 
