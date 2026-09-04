@@ -633,3 +633,28 @@ Note: claude.ai registry paste of the foundry skill is pending —
 Commander's manual step, not this session's.
 
 Commit: `e811105`
+
+## 2026-09-04 — Skill-estate audit filed (standard budget); 21.08 record status resolved
+
+Skill-estate audit run under estate-audit by the Tower (Tour project, Fable 5.1): 19 skills censused (18 registry + vibecode-foundry under plugins), 292,324 B in `user/`; registry byte-reconciled to the 2026-08-21 census exactly (only foundry-out, scar-ledger-in, letter +4,734 B changed). Findings: F1 HIGH — the 2026-08-21 doctrine-census/conflict-map audit was never filed and its ratified F2+F3 hotfix never reached the registry; F2–F6 MEDIUM (always-on identity contradiction persists; struck phrase at brand-methodology 81/243 persists; control-tower's bridge-era triggers have fired; project-pulse registry dated March 2026; 16/19 skills outside version control); F7–F12 MINOR/SUSPECTED. Verdicts: 6 AMEND (personal-context, companion-style, brand-methodology, project-pulse, control-tower, estate-audit), 13 KEEP, 0 RETIRE, 0 MERGE (one candidate parked). Coverage: 5/19 full reads; 14 KEEPs are structural — declared as the audit's weakest gate. Slate: (1) this filing, (2) the 21.08 hotfix lap, (3) Code-side census + AgentShield on a copy. Full report: `audits/2026-09-04-skill-estate-audit.md`. KPI row appended. Scar proposed in the 04.09 BATON cold-reviewed: recommend ratify, clade I. This entry filed by Hands from a Tower-authored doc-only key; the Tower certifies post-push from an independent tarball pull.
+
+>> BATON
+STATE: `audits/2026-09-04-skill-estate-audit.md` landed byte-identical
+  to the Commander's input (sha256 verified pre/post copy).
+  `audits/2026-08-21-doctrine-census-conflict-map.md` was found on
+  disk (untracked, GT3) and staged alongside it unmodified — that
+  audit's own filing was never completed until this lap. `KPI.md`
+  gained one row (2026-09-04, standard budget). Scar appended to
+  `SCAR-LEDGER.md` per Commander ratification (2026-09-04, "ratify").
+  All three files verified append-only via byte-prefix `cmp` against
+  their pre-edit `HEAD` contents before commit.
+CERTIFIED: pending Tower — executor session
+OPEN: F1 (21.08 hotfix never reached the registry) is filed, not yet
+  resolved — the registry paste is still the Commander's manual step.
+  Carried forward unchanged: root-as-repo backlog question (LEDGER
+  2026-08-06), now 29d open.
+NEXT: Tower certifies via independent tarball pull at the reported
+  ending SHA.
+TRAPS: none known.
+HARNESS: n/a tests (no test suite this repo) · last full eval n/a ·
+  signals n/a.

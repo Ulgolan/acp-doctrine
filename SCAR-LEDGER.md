@@ -171,3 +171,5 @@ born in repos without main protection; entering a new repo is a geometry
 change — re-try the standing process laws at the door. The doc-only
 exemption skips ceremony (preview branch, Commander eye), never repo
 rules.*
+
+*2026-09-04, AuditLens arc — Tower sequenced two sessions ("prep run 2", "draft key v1.2") from a week-old ledger without pulling main; run 2 had already run under v1.2 and merged. Clade I, unpulled ground. Caught by the Hands' ground-truth answers, not by the Tower. Cold-reviewed by the next Tower (skill-estate audit session), ratified by the Commander.*
