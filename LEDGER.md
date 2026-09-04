@@ -691,3 +691,34 @@ HANDS: filed by executor session per KEY-C; commit sha in git, not here.
 ## 2026-09-04 — Scar appended under Commander override (skill-estate session)
 
 One paragraph appended to SCAR-LEDGER.md: three refinements (clades I, III, IV/VII), no new clade, mantra unchanged. Cold review by the next Tower waived by Commander ruling ("fire a Hands lap"); override logged per control-tower session-close rule. Proposing Tower recommended letting the ritual run; overruled. Separate ruling still pending: promote "separated second tribunal before RECORD-COMPLETE" to law (three trials on record: 08-11 L7, 08-31 observation, 09-04 4/4). Doc-only lap; Tower certifies via tarball.
+
+## 2026-09-04 — Four Commander rulings recorded (Tour chat, post-tribunal)
+
+(a) F2/F3 grade: HIGH stands. 21.08's grade is the record; the 04.09
+    MEDIUM remains a filed dissent. Ruled by the Tower with both
+    reports open, sealed by the Commander.
+(b) "Separated tribunal before RECORD-COMPLETE": PARKED, applied on a
+    need basis, not law. Trial record judged insufficient at pull —
+    one clean trial locatable; 09-04's "4 of 4" does not state who
+    ran the second pass.
+(c) Precedence line + six local .claude/skills/ copies: ARCHIVE the
+    six to doctrine/archive/skills/ (trash-never-delete) and INSTALL
+    the precedence line — no terminal probe. Premise, Commander
+    stated: terminal Code sessions are not a client in use ("for
+    now, always the app"). Fires as KEY-F.
+(d) AgentShield on the Commander's terminal: NOT RUNNING NOW.
+    OPEN (7) → PARKED. Host-side supply-chain risk named to the
+    Commander (npx executes fetched code; a scanned copy protects
+    canon, not the machine).
+Tower note: the terminal probe (drafted as GT8) was withdrawn as
+Lesson III — measuring a client not in service.
+
+>> BATON
+STATE: rulings entry only.
+CERTIFIED: pending Tower tarball at ending SHA.
+OPEN: KEY-C's list carried forward, edits: (3) ruled → KEY-F;
+  (7) PARKED; F2/F3 line closed.
+NEXT: KEY-F, then AuditLens session-open pull for live-fire #1.
+TRAPS: KEY-C's, unchanged.
+HARNESS: n/a.
+HANDS: this session.
