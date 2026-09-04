@@ -687,3 +687,7 @@ NEXT: Certify KEY-C from tarball unless the closing session already did (check t
 TRAPS: `cmp -s -n` lies on macOS — use `head -c $n new | cmp - old`. Keys that ask for an empty porcelain while placing files on disk contradict themselves. A11 is v1.1, not v1.2. GT7 measured ONE client (desktop app local-agent-mode); do not generalise to terminal sessions without measuring. `api.github.com` still rate-limits; tarball + `ls-remote` work. Process substitution `<( )` fails under `sh` — write keys for `sh`, not bash. The claude.ai project-knowledge copy of SCAR-LEDGER.md is stale (missing 08-31 and 09-04 scars) — read the repo.
 HARNESS: n/a tests (no test suite this repo) · last full eval n/a · signals n/a.
 HANDS: filed by executor session per KEY-C; commit sha in git, not here.
+
+## 2026-09-04 — Scar appended under Commander override (skill-estate session)
+
+One paragraph appended to SCAR-LEDGER.md: three refinements (clades I, III, IV/VII), no new clade, mantra unchanged. Cold review by the next Tower waived by Commander ruling ("fire a Hands lap"); override logged per control-tower session-close rule. Proposing Tower recommended letting the ritual run; overruled. Separate ruling still pending: promote "separated second tribunal before RECORD-COMPLETE" to law (three trials on record: 08-11 L7, 08-31 observation, 09-04 4/4). Doc-only lap; Tower certifies via tarball.
