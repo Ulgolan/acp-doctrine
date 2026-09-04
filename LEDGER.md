@@ -722,3 +722,53 @@ NEXT: KEY-F, then AuditLens session-open pull for live-fire #1.
 TRAPS: KEY-C's, unchanged.
 HARNESS: n/a.
 HANDS: this session.
+
+## 2026-09-04 — KEY-F: six local skill copies archived; precedence line installed
+
+KEY-E certified PASS by Tower (tarball `17d7dfb` vs `cf9a8d1`,
+`LEDGER.md` only, PREFIX-OK 53,378 B, +1,445 B). Six local
+`.claude/skills/` copies moved (`mv`, not `cp`) from
+`~/projects/acp-command-center/.claude/skills/` into
+`archive/skills/` this repo; source dir now empty and removed
+(`rmdir`). Each dir held only `SKILL.md`, no other files.
+
+| Skill | Bytes | SHA-256 |
+|---|---|---|
+| acp-writing-style | 41272 | `05e69d75e4c1f6a25bddb3ba5ae6d1cee837ff3d3d6a1ebf9e27241783258176` |
+| ai-tic-audit | 18485 | `e9ac183510292b6aeb7808de245ab79910b224ff8a83e9e36dd68134df4de603` |
+| control-tower | 8478 | `636ce7f718e04413795c6647b8a33c3d97e2470c0ccd12ab6d7a6197cf7ff808` |
+| polaris | 9829 | `73f2a2da2a1381495d03e21091eb3b0bc74ecca3e8294f8449edb01226df7881` |
+| red-team-protocol | 19170 | `fc65f807c367d19c7e8c899be689e30bbefafc5fdc2072cd153ce94634e0ee40` |
+| the-scar-ledger | 4828 | `9371222062e0550e97234d33d7e42c53594424db502383ec49ca8d00b1958b81` |
+
+`archive/skills/README.md` written per spec, snapshot-not-canonical
+sentence verbatim. Of the six, two already have a canonical repo
+copy (`acp-writing-style/SKILL.md`, `skills/the-scar-ledger/SKILL.md`);
+the other four (ai-tic-audit, control-tower, polaris,
+red-team-protocol) have no canonical repo copy — they sit in
+`archive/skills/` as ARCHIVE, not canon.
+
+Root `CLAUDE.md` `## Skills` section replaced: anchor line and the
+"Not ported" line's paragraph swapped for the precedence-line block
+verbatim (Not ported line itself kept unchanged, directly below).
+Mirror (`doctrine/CLAUDE.md`) given the identical block. Mirror diff empty.
+
+>> BATON
+STATE: six copies archived, README written, precedence line installed
+  in both CLAUDE.md files, mirror diff empty.
+CERTIFIED: pending Tower tarball at ending SHA.
+OPEN: KEY-C's list carried forward. (3) Precedence line install →
+  CLOSED, this lap. (6) 16/19 skills unversioned still open — now
+  narrower: two of the six local copies (acp-writing-style,
+  the-scar-ledger) already have a canonical repo copy; the other
+  four (ai-tic-audit, control-tower, polaris, red-team-protocol)
+  have none — versioned as ARCHIVE, not canon, in
+  `archive/skills/`.
+NEXT: LIVE-FIRE #1 on hotico-proto (Station 12, SC window closes
+  2026-09-30).
+TRAPS: KEY-C's, unchanged. Add: stray untracked
+  `2026-09-04-skill-estate-audit.md` at repo root — never `git add -A`
+  in this repo. Add: every key's commit step must push and report
+  ls-remote — a commit receipt is not a push receipt (KEY-E).
+HARNESS: n/a.
+HANDS: this session.

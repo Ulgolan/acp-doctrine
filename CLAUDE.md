@@ -20,7 +20,16 @@ Needs support and comprehensive, mostly step-by-step explanations, in the right 
 - Edit surgically. When it will not affect the end result, make a targeted edit rather than rewriting the whole file — rewrites cost tokens and time and risk clobbering lines you did not mean to touch.
 
 ## Skills
-See .claude/skills/ — invoke per their descriptions. 
+A skill's canonical text is its copy in acp-doctrine where one
+exists; unported skills are canonical in the claude.ai registry
+until ported. The registry is the live deployment — it is what
+chat sessions and desktop-app Code sessions read (measured
+2026-09-04, GT7: one skill, natural trigger). .claude/skills/ is
+retired; its last copies sit in doctrine/archive/skills/ and are
+not a place to edit. Sync direction is always repo → registry, by
+Commander paste; never edit a deployment in place. Terminal Code
+sessions are not a client in use; if one ever enters service,
+re-measure at the door before trusting this paragraph.
 Not ported (chat-only, pending rewrite): project-pulse, dashboard-export.
 
 ## IA Canon Law (2026-07-31)
